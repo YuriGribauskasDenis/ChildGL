@@ -1,0 +1,219 @@
+#version 450
+
+$GLMatrices
+
+layout (triangles) in;
+layout (triangle_strip, max_vertices = 4) out;
+
+uniform float cylinderRadius;
+uniform float cylinderHeight;
+uniform vec3 cylinderAxis;
+uniform vec3 cylinderPos;
+
+uniform bool boxFlag;
+uniform float box_X;
+uniform float box_Z;
+uniform float box_Y;
+uniform vec3 boxAxis;
+uniform vec3 boxPos;
+
+uniform mat3 boxMatPass;
+layout (location = 21) uniform float memb01;
+layout (location = 22) uniform float memb02;
+layout (location = 23) uniform float memb03;
+layout (location = 24) uniform float memb04;
+layout (location = 25) uniform float memb05;
+layout (location = 26) uniform float memb06;
+layout (location = 27) uniform float memb07;
+layout (location = 28) uniform float memb08;
+layout (location = 29) uniform float memb09;
+
+uniform float xm01;
+uniform float xm02;
+uniform float xm03;
+uniform float xm04;
+uniform float xm05;
+uniform float xm06;
+uniform float xm07;
+uniform float xm08;
+uniform float xm09;
+
+in vec4 color[3];
+out vec4 fragColor;
+
+int isVertexInsideCyl(vec3 q)
+{
+	int count = 0;
+	vec3 p1 = cylinderPos;
+	vec3 p2 = cylinderPos + cylinderAxis*cylinderHeight;
+	vec3 vec = p2-p1;
+	if (dot(q-p1,vec)>=0&&dot(q-p2,vec)<=0)
+	{
+		float rValue = cylinderRadius * length(vec);
+		float crossValue = length(cross(q-p1,vec));
+		count = crossValue<=rValue?1:0;
+	}
+	return count;
+}
+
+int isVertexInsideBox(vec3 q)
+{
+	vec3 t = boxAxis;
+	float yp1 = t.y+1.0f;
+	mat3 fix = mat3
+	(
+    t.y + (t.z * t.z / yp1), -t.x, -t.z * t.x / yp1, 
+    t.x, t.y, t.z, 
+    -t.z*t.x / yp1, -t.z, t.y + (t.x*t.x / yp1));
+	//fix = boxMatPass;
+	//fix = boxMatPass*fix;
+	mat3 fix2 = mat3(
+	memb01,memb02,memb03,
+	memb04,memb05,memb06,
+	memb07,memb08,memb09
+	);
+	//fix=fix2;
+	mat3 fix3 = mat3(
+	xm01,xm02,xm03,
+	xm04,xm05,xm06,
+	xm07,xm08,xm09
+	);
+	//fix=fix3;
+
+	vec3 inv = transpose(fix) * (q - boxPos);
+
+	if (abs(inv.x) < box_X * 0.5 && inv.y > 0 && inv.y < box_Y && abs(inv.z) < box_Z * 0.5)
+		return 1;
+return 0;
+	}
+
+int isVertexInside(vec3 q)
+{
+	if (!boxFlag) return isVertexInsideCyl(q);
+	if (isVertexInsideCyl(q)==1||isVertexInsideBox(q)==1) return 1;
+	return 0;
+}
+
+void main()
+{
+	int vertexCount = 0;
+	for (int i = 0; i < gl_in.length(); i++)
+	{
+		vertexCount += isVertexInside(gl_in[i].gl_Position.xyz);
+	}
+	mat4 projviewMatrix = projMatrix * viewMatrix;
+    if (vertexCount==3)
+    {
+		vec3 CameraRight = vec3(viewMatrix[0][0], viewMatrix[1][0], viewMatrix[2][0]);
+		vec3 CameraUp = vec3(viewMatrix[0][1], viewMatrix[1][1], viewMatrix[2][1]);
+		float dist = 0.025f;
+		for (int i = 0; i < gl_in.length(); i++)
+		{
+			vec3 Pos = gl_in[i].gl_Position.xyz;
+
+			Pos -= (CameraRight * (dist/2));
+			gl_Position = projviewMatrix * vec4(Pos, 1.0);
+			fragColor = color[i]*vec4(1.0f,0.0f,0.0f,1.0f);
+			EmitVertex();
+
+			Pos += CameraUp*dist;
+			gl_Position = projviewMatrix * vec4(Pos, 1.0);
+			fragColor = color[i]*vec4(0.0f,1.0f,0.0f,1.0f);
+			EmitVertex();
+
+			Pos -= CameraUp*dist;
+			Pos += (CameraRight * dist);
+			gl_Position = projviewMatrix * vec4(Pos, 1.0);
+			fragColor = color[i]*vec4(1.0f,0.0f,1.0f,1.0f);
+			EmitVertex();
+
+			Pos += CameraUp*dist;
+			gl_Position = projviewMatrix * vec4(Pos, 1.0);
+			fragColor = color[i]*vec4(0.0f,0.0f,1.0f,1.0f);
+			EmitVertex();
+
+			EndPrimitive();
+		}
+	}
+	if (vertexCount==3)
+	{
+		float dist = 0.025f;
+		for (int i = 0; i < gl_in.length(); i++)
+		{
+			vec4 move = vec4(-dist,0.0f,dist,0.0f);
+			gl_Position = projviewMatrix * ((gl_in[i].gl_Position + move));
+			fragColor = color[i]*vec4(1.0f,0.0f,0.0f,1.0f);
+			EmitVertex();
+
+			move = vec4(-dist,0.0f,-dist,0.0f);
+			gl_Position = projviewMatrix * ((gl_in[i].gl_Position + move));
+			fragColor = color[i]*vec4(0.0f,1.0f,0.0f,1.0f);
+			EmitVertex();
+
+			move = vec4(dist,0.0f,dist,0.0f);
+			gl_Position = projviewMatrix * ((gl_in[i].gl_Position + move));
+			fragColor = color[i]*vec4(1.0f,0.0f,1.0f,1.0f);
+			EmitVertex();
+
+			move = vec4(dist,0.0f,-dist,0.0f);
+			gl_Position = projviewMatrix * ((gl_in[i].gl_Position + move));
+			fragColor = color[i]*vec4(0.0f,0.0f,1.0f,1.0f);
+			EmitVertex();
+
+			EndPrimitive();
+		}
+	}
+	if (vertexCount==3)
+	{
+			mat4 inv = inverse(viewMatrix);
+			vec3 gCameraPos = vec3(inv[3][0],inv[3][1],inv[3][2]);
+			float dist = 0.5f;
+		for (int i = 0; i < gl_in.length(); i++)
+		{
+			vec3 Pos = gl_in[i].gl_Position.xyz;
+			vec3 toCamera = normalize(gCameraPos - Pos);
+			vec3 up = vec3(0.0, 1.0, 0.0);
+			vec3 right = cross(toCamera, up);
+
+			Pos -= (right * (dist/2));
+			gl_Position = projviewMatrix * vec4(Pos, 1.0);
+			fragColor = color[i]*vec4(1.0f,0.0f,0.0f,1.0f);
+			EmitVertex();
+
+			Pos.y += dist;
+			gl_Position = projviewMatrix * vec4(Pos, 1.0);
+			fragColor = color[i]*vec4(0.0f,1.0f,0.0f,1.0f);
+			EmitVertex();
+
+			Pos.y -= dist;
+			Pos += (right * dist);
+			gl_Position = projviewMatrix * vec4(Pos, 1.0);
+			fragColor = color[i]*vec4(1.0f,0.0f,1.0f,1.0f);
+			EmitVertex();
+
+			Pos.y += dist;
+			gl_Position = projviewMatrix * vec4(Pos, 1.0);
+			fragColor = color[i]*vec4(0.0f,0.0f,1.0f,1.0f);
+			EmitVertex();
+
+			EndPrimitive();
+		}
+	}
+	if (0<=vertexCount&&vertexCount<3)
+	{
+		mat4 projviewMatrix = projMatrix * viewMatrix;
+		vec4 colorMask = vec4(1.0f);
+		for (int i = 0; i < gl_in.length(); i++)
+		{
+			gl_Position = projviewMatrix * gl_in[i].gl_Position;
+			if (0<vertexCount&&vertexCount<3)
+			{
+				colorMask.xyz = vec3(0.0f);
+				colorMask[2-vertexCount]=1.0f;
+			}
+			fragColor = color[i]*colorMask;
+			EmitVertex();
+		}
+		EndPrimitive();
+	}
+}

@@ -1,0 +1,1210 @@
+
+[Fri May 22 19:35:53 2020] INF: [app.cpp (86)] App created
+[Fri May 22 19:35:53 2020] INF: [app.cpp (106)] Iniciando aplicación D:\PG\practPG10\bin\p10d.exe
+[Fri May 22 19:35:54 2020] INF: [sdlAdapter.cpp (489)] Window Properties: DOUBLE_BUFFER 
+[Fri May 22 19:35:54 2020] INF: [sdlAdapter.cpp (491)] SDL Window flags: SDL_WINDOW_OPENGL SDL_WINDOW_SHOWN SDL_WINDOW_RESIZABLE SDL_WINDOW_INPUT_FOCUS 
+[Fri May 22 19:35:54 2020] INF: [sdlAdapter.cpp (494)] SDL Context flags: SDL_GL_CONTEXT_DEBUG_FLAG 
+[Fri May 22 19:35:54 2020] INF: [window.cpp (128)] Ventana creada. Soporte de OpenGL: GL_VERSION_4_5
+[Fri May 22 19:35:54 2020] INF: [windowBuilder.cpp (75)] Información del driver:
+GL_VENDOR: NVIDIA Corporation
+GL_RENDERER: GeForce GTX 1050/PCIe/SSE2
+GL_VERSION: 4.5.0 NVIDIA 398.36
+GL_SHADING_LANGUAGE_VERSION: 4.50 NVIDIA
+Tamaño del framebuffer por defecto:
+   bits de color: (8, 8, 8, 0), depth: 24, stencil: 0
+
+[Fri May 22 19:35:54 2020] INF: [app.cpp (161)] Library versions
+PGUPV 64 bits Debug Revision: 2040
+Boost: 1_69
+SDL: Runtime: 2.0.8 Compiled: 2.0.8
+Assimp: 4.1.0
+GLEW: 2.2.0
+Par Shapes: http://github.prideout.net/shapes @ August 2016
+GLI: 0.8.3
+FreeImage: 3.18.0
+ImGui: 1.70
+[Fri May 22 19:35:54 2020] INF: [app.cpp (418)] No se han encontrado joysticks en el sistema
+[Fri May 22 19:35:54 2020] INF: [bufferObject.cpp (41)] Buffer object 1 ha reservado 3320 bytes
+[Fri May 22 19:35:54 2020] INF: [bufferObject.cpp (41)] Buffer object 2 ha reservado 5412 bytes
+[Fri May 22 19:35:54 2020] INF: [bufferObject.cpp (41)] Buffer object 3 ha reservado 5412 bytes
+[Fri May 22 19:35:54 2020] INF: [bufferObject.cpp (41)] Buffer object 4 ha reservado 3608 bytes
+[Fri May 22 19:35:54 2020] INF: [bufferObject.cpp (41)] Buffer object 5 ha reservado 288 bytes
+[Fri May 22 19:35:54 2020] INF: [bufferObject.cpp (41)] Buffer object 6 ha reservado 288 bytes
+[Fri May 22 19:35:54 2020] INF: [bufferObject.cpp (41)] Buffer object 7 ha reservado 192 bytes
+[Fri May 22 19:35:54 2020] INF: [bufferObject.cpp (41)] Buffer object 8 ha reservado 4800 bytes
+[Fri May 22 19:35:54 2020] INF: [bufferObject.cpp (41)] Buffer object 9 ha reservado 4800 bytes
+[Fri May 22 19:35:54 2020] INF: [bufferObject.cpp (41)] Buffer object 10 ha reservado 3200 bytes
+[Fri May 22 19:35:54 2020] INF: [bufferObject.cpp (41)] Buffer object 11 ha reservado 3116 bytes
+[Fri May 22 19:35:54 2020] INF: [fbo.cpp (21)] Framebuffer object 1 creado
+[Fri May 22 19:35:54 2020] INF: [bufferObject.cpp (41)] Buffer object 12 ha reservado 260 bytes
+[Fri May 22 19:35:54 2020] INF: [bufferObject.cpp (41)] Buffer object 13 ha reservado 432 bytes
+[Fri May 22 19:35:54 2020] INF: [bufferObject.cpp (41)] Buffer object 14 ha reservado 432 bytes
+[Fri May 22 19:35:54 2020] INF: [bufferObject.cpp (41)] Buffer object 15 ha reservado 288 bytes
+[Fri May 22 19:35:54 2020] INF: [bufferObject.cpp (41)] Buffer object 16 ha reservado 48 bytes
+[Fri May 22 19:35:54 2020] INF: [bufferObject.cpp (41)] Buffer object 17 ha reservado 32 bytes
+[Fri May 22 19:35:54 2020] INF: [bindableTexture.cpp (42)] Textura de tipo GL_TEXTURE_2D creada con id 1
+[Fri May 22 19:35:54 2020] INF: [app.cpp (665)] Unidad de textura reservada para PGUPV: 191
+[Fri May 22 19:35:54 2020] INF: [bufferObject.cpp (41)] Buffer object 18 ha reservado 80 bytes
+[Fri May 22 19:35:54 2020] INF: [uboMaterial.cpp (54)] UBO Material creado
+[Fri May 22 19:35:54 2020] INF: [bufferObject.cpp (41)] Buffer object 19 ha reservado 80 bytes
+[Fri May 22 19:35:54 2020] INF: [uboMaterial.cpp (54)] UBO Material creado
+[Fri May 22 19:35:54 2020] INF: [bufferObject.cpp (41)] Buffer object 20 ha reservado 80 bytes
+[Fri May 22 19:35:54 2020] INF: [uboMaterial.cpp (54)] UBO Material creado
+[Fri May 22 19:35:54 2020] INF: [bufferObject.cpp (41)] Buffer object 21 ha reservado 80 bytes
+[Fri May 22 19:35:54 2020] INF: [uboMaterial.cpp (54)] UBO Material creado
+[Fri May 22 19:35:54 2020] INF: [assimpWrapper.cpp (93)] El modelo ../recursos/modelos/teapot.3ds no tiene animaciones
+[Fri May 22 19:35:54 2020] INF: [bufferObject.cpp (41)] Buffer object 22 ha reservado 80 bytes
+[Fri May 22 19:35:54 2020] INF: [uboMaterial.cpp (54)] UBO Material creado
+[Fri May 22 19:35:54 2020] INF: [assimpWrapper.cpp (414)] Material: %%%DEFAULT
+Amb: (0, 0, 0) Dif: (0.3, 0.3, 0.3) Esp: (0, 0, 0) Emi: (0, 0, 0) 
+Shading model *ignored*: Simple Gouraud shading
+Textures:
+ TextureCount: 00000000000000000000000000000000
+[Fri May 22 19:35:54 2020] INF: [assimpWrapper.cpp (193)] Mesh #0 (0). Tris: 3080. Vtx: 1597 with normals WITHOUT tangents
+[Fri May 22 19:35:54 2020] INF: [bufferObject.cpp (41)] Buffer object 23 ha reservado 36960 bytes
+[Fri May 22 19:35:54 2020] INF: [bufferObject.cpp (41)] Buffer object 24 ha reservado 19164 bytes
+[Fri May 22 19:35:54 2020] INF: [bufferObject.cpp (41)] Buffer object 25 ha reservado 19164 bytes
+[Fri May 22 19:35:54 2020] INF: [fileLoader.cpp (293)] Grafo de escena:
+Transform (<3DSDummyRoot>) BB: [-1.99513 -> 2.21556, 1.0091e-09 -> 2.06155, -1.34067 -> 1.27718] 1 hijos 
+Mat: [
+1 0 0 0
+0 0 1 0
+0 -1 0 0
+0 0 0 1]
+  Transform (3DSMesh_0) BB: [-1.99513 -> 2.21556, -1.27718 -> 1.34067, 1.0091e-09 -> 2.06155] 1 hijos 
+  Mat: [
+  1 0 0 0
+  0 1 0 0
+  0 0 1 0
+  0 0 0 1]
+    Geode (3DSMesh_0) BB: [-1.99513 -> 2.21556, -1.27718 -> 1.34067, 1.0091e-09 -> 2.06155] 1 mallas { [0] 1597 vert 1 draws}
+
+[Fri May 22 19:35:54 2020] INF: [bufferObject.cpp (41)] Buffer object 26 ha reservado 368 bytes
+[Fri May 22 19:35:54 2020] INF: [glMatrices.cpp (160)] UBO GLMatrices creado
+[Fri May 22 19:35:54 2020] INF: [bufferObject.cpp (41)] Buffer object 27 ha reservado 576 bytes
+[Fri May 22 19:35:54 2020] INF: [uboLightSources.cpp (86)] UBO LightSources creado
+[Fri May 22 19:35:54 2020] INF: [shader.cpp (169)] Compilando ../p10/p10.vert
+[Fri May 22 19:35:54 2020] INF: [shader.cpp (169)] Compilando ../p10/p10.frag
+[Fri May 22 19:35:54 2020] INF: [bufferObject.cpp (41)] Buffer object 28 ha reservado 368 bytes
+[Fri May 22 19:35:54 2020] INF: [glMatrices.cpp (160)] UBO GLMatrices creado
+[Fri May 22 19:35:54 2020] INF: [shader.cpp (169)] Compilando ../p10/shadowMap.vert
+[Fri May 22 19:35:54 2020] INF: [shader.cpp (169)] Compilando ../p10/shadowMap.frag
+[Fri May 22 19:35:54 2020] INF: [shader.cpp (169)] Compilando ../p10/zbuffershow.vert
+[Fri May 22 19:35:54 2020] INF: [shader.cpp (169)] Compilando ../p10/zbuffershow.frag
+[Fri May 22 19:35:54 2020] WAR: [window.cpp (619)] (!! ) GL Debug: (PERFORMANCE) Program/shader state performance warning: Vertex shader in program 9 is being recompiled based on GL state.
+[Fri May 22 19:35:54 2020] INF: [stockPrograms.h (36)] StockProgram creado
+[Fri May 22 19:35:54 2020] INF: [shader.cpp (169)] Compilando 
+[Fri May 22 19:35:54 2020] INF: [shader.cpp (169)] Compilando 
+[Fri May 22 19:35:54 2020] WAR: [window.cpp (619)] (!! ) GL Debug: (PERFORMANCE) Program/shader state performance warning: Vertex shader in program 12 is being recompiled based on GL state.
+[Fri May 22 19:36:09 2020] INF: [bindableTexture.cpp (42)] Textura de tipo GL_TEXTURE_2D creada con id 3
+[Fri May 22 19:36:09 2020] INF: [bindableTexture.cpp (48)] Textura con id 1 destruída
+[Fri May 22 19:36:10 2020] INF: [bindableTexture.cpp (42)] Textura de tipo GL_TEXTURE_2D creada con id 1
+[Fri May 22 19:36:10 2020] INF: [bindableTexture.cpp (48)] Textura con id 3 destruída
+[Fri May 22 19:36:25 2020] INF: [bindableTexture.cpp (42)] Textura de tipo GL_TEXTURE_2D creada con id 3
+[Fri May 22 19:36:25 2020] INF: [bindableTexture.cpp (48)] Textura con id 1 destruída
+[Fri May 22 19:36:27 2020] INF: [bindableTexture.cpp (42)] Textura de tipo GL_TEXTURE_2D creada con id 1
+[Fri May 22 19:36:27 2020] INF: [bindableTexture.cpp (48)] Textura con id 3 destruída
+[Fri May 22 19:36:29 2020] INF: [bindableTexture.cpp (42)] Textura de tipo GL_TEXTURE_2D creada con id 3
+[Fri May 22 19:36:29 2020] INF: [bindableTexture.cpp (48)] Textura con id 1 destruída
+[Fri May 22 19:36:30 2020] INF: [bindableTexture.cpp (42)] Textura de tipo GL_TEXTURE_2D creada con id 1
+[Fri May 22 19:36:30 2020] INF: [bindableTexture.cpp (48)] Textura con id 3 destruída
+[Fri May 22 19:36:31 2020] INF: [bindableTexture.cpp (42)] Textura de tipo GL_TEXTURE_2D creada con id 3
+[Fri May 22 19:36:31 2020] INF: [bindableTexture.cpp (48)] Textura con id 1 destruída
+[Fri May 22 19:36:32 2020] INF: [bindableTexture.cpp (42)] Textura de tipo GL_TEXTURE_2D creada con id 1
+[Fri May 22 19:36:32 2020] INF: [bindableTexture.cpp (48)] Textura con id 3 destruída
+[Fri May 22 19:36:33 2020] INF: [bindableTexture.cpp (42)] Textura de tipo GL_TEXTURE_2D creada con id 3
+[Fri May 22 19:36:33 2020] INF: [bindableTexture.cpp (48)] Textura con id 1 destruída
+[Fri May 22 19:36:48 2020] INF: [app.cpp (599)] Aplicación terminada normalmente
+[Fri May 22 19:36:48 2020] INF: [bufferObject.cpp (19)] Buffer object 16 (Vertices) destruído
+[Fri May 22 19:36:48 2020] INF: [bufferObject.cpp (19)] Buffer object 17 (Coord. de textura (0)) destruído
+[Fri May 22 19:36:48 2020] INF: [bufferObject.cpp (19)] Buffer object 13 (Vertices) destruído
+[Fri May 22 19:36:48 2020] INF: [bufferObject.cpp (19)] Buffer object 14 (Normales) destruído
+[Fri May 22 19:36:48 2020] INF: [bufferObject.cpp (19)] Buffer object 12 (Indices) destruído
+[Fri May 22 19:36:48 2020] INF: [bufferObject.cpp (19)] Buffer object 15 (Coord. de textura (0)) destruído
+[Fri May 22 19:36:48 2020] INF: [fbo.cpp (44)] Framebuffer object 1 destruído
+[Fri May 22 19:36:48 2020] INF: [bindableTexture.cpp (48)] Textura con id 3 destruída
+[Fri May 22 19:36:48 2020] INF: [bufferObject.cpp (19)] Buffer object 21 (Material) destruído
+[Fri May 22 19:36:48 2020] INF: [bufferObject.cpp (19)] Buffer object 8 (Vertices) destruído
+[Fri May 22 19:36:48 2020] INF: [bufferObject.cpp (19)] Buffer object 9 (Normales) destruído
+[Fri May 22 19:36:48 2020] INF: [bufferObject.cpp (19)] Buffer object 11 (Indices) destruído
+[Fri May 22 19:36:48 2020] INF: [bufferObject.cpp (19)] Buffer object 10 (Coord. de textura (0)) destruído
+[Fri May 22 19:36:48 2020] INF: [bufferObject.cpp (19)] Buffer object 20 (Material) destruído
+[Fri May 22 19:36:48 2020] INF: [bufferObject.cpp (19)] Buffer object 6 (Vertices) destruído
+[Fri May 22 19:36:48 2020] INF: [bufferObject.cpp (19)] Buffer object 5 (Normales) destruído
+[Fri May 22 19:36:48 2020] INF: [bufferObject.cpp (19)] Buffer object 7 (Coord. de textura (0)) destruído
+[Fri May 22 19:36:48 2020] INF: [bufferObject.cpp (19)] Buffer object 18 (Material) destruído
+[Fri May 22 19:36:48 2020] INF: [bufferObject.cpp (19)] Buffer object 2 (Vertices) destruído
+[Fri May 22 19:36:48 2020] INF: [bufferObject.cpp (19)] Buffer object 3 (Normales) destruído
+[Fri May 22 19:36:48 2020] INF: [bufferObject.cpp (19)] Buffer object 1 (Indices) destruído
+[Fri May 22 19:36:48 2020] INF: [bufferObject.cpp (19)] Buffer object 4 (Coord. de textura (0)) destruído
+[Fri May 22 19:36:48 2020] INF: [bufferObject.cpp (19)] Buffer object 22 (Material) destruído
+[Fri May 22 19:36:48 2020] INF: [bufferObject.cpp (19)] Buffer object 19 (Material) destruído
+[Fri May 22 19:36:48 2020] INF: [bufferObject.cpp (19)] Buffer object 24 (Vertices) destruído
+[Fri May 22 19:36:48 2020] INF: [bufferObject.cpp (19)] Buffer object 25 (Normales) destruído
+[Fri May 22 19:36:48 2020] INF: [bufferObject.cpp (19)] Buffer object 23 (Indices) destruído
+[Fri May 22 19:36:48 2020] INF: [bufferObject.cpp (19)] Buffer object 27 (Lights) destruído
+[Fri May 22 19:36:48 2020] INF: [bufferObject.cpp (19)] Buffer object 28 (GLMatrices) destruído
+[Fri May 22 19:36:48 2020] INF: [bufferObject.cpp (19)] Buffer object 26 (GLMatrices) destruído
+[Fri May 22 19:36:48 2020] INF: [app.cpp (93)] App destroyed
+[Fri May 22 19:36:48 2020] INF: [log.cpp (46)] Closing Log
+
+[Fri May 22 19:42:04 2020] INF: [app.cpp (86)] App created
+[Fri May 22 19:42:04 2020] INF: [app.cpp (106)] Iniciando aplicación D:\PG\practPG10\bin\p10d.exe
+[Fri May 22 19:42:05 2020] INF: [sdlAdapter.cpp (489)] Window Properties: DOUBLE_BUFFER 
+[Fri May 22 19:42:05 2020] INF: [sdlAdapter.cpp (491)] SDL Window flags: SDL_WINDOW_OPENGL SDL_WINDOW_SHOWN SDL_WINDOW_RESIZABLE SDL_WINDOW_INPUT_FOCUS SDL_WINDOW_MOUSE_FOCUS 
+[Fri May 22 19:42:05 2020] INF: [sdlAdapter.cpp (494)] SDL Context flags: SDL_GL_CONTEXT_DEBUG_FLAG 
+[Fri May 22 19:42:05 2020] INF: [window.cpp (128)] Ventana creada. Soporte de OpenGL: GL_VERSION_4_5
+[Fri May 22 19:42:05 2020] INF: [windowBuilder.cpp (75)] Información del driver:
+GL_VENDOR: NVIDIA Corporation
+GL_RENDERER: GeForce GTX 1050/PCIe/SSE2
+GL_VERSION: 4.5.0 NVIDIA 398.36
+GL_SHADING_LANGUAGE_VERSION: 4.50 NVIDIA
+Tamaño del framebuffer por defecto:
+   bits de color: (8, 8, 8, 0), depth: 24, stencil: 0
+
+[Fri May 22 19:42:05 2020] INF: [app.cpp (161)] Library versions
+PGUPV 64 bits Debug Revision: 2040
+Boost: 1_69
+SDL: Runtime: 2.0.8 Compiled: 2.0.8
+Assimp: 4.1.0
+GLEW: 2.2.0
+Par Shapes: http://github.prideout.net/shapes @ August 2016
+GLI: 0.8.3
+FreeImage: 3.18.0
+ImGui: 1.70
+[Fri May 22 19:42:05 2020] INF: [app.cpp (418)] No se han encontrado joysticks en el sistema
+[Fri May 22 19:42:05 2020] INF: [bufferObject.cpp (41)] Buffer object 1 ha reservado 3320 bytes
+[Fri May 22 19:42:05 2020] INF: [bufferObject.cpp (41)] Buffer object 2 ha reservado 5412 bytes
+[Fri May 22 19:42:05 2020] INF: [bufferObject.cpp (41)] Buffer object 3 ha reservado 5412 bytes
+[Fri May 22 19:42:05 2020] INF: [bufferObject.cpp (41)] Buffer object 4 ha reservado 3608 bytes
+[Fri May 22 19:42:05 2020] INF: [bufferObject.cpp (41)] Buffer object 5 ha reservado 288 bytes
+[Fri May 22 19:42:05 2020] INF: [bufferObject.cpp (41)] Buffer object 6 ha reservado 288 bytes
+[Fri May 22 19:42:05 2020] INF: [bufferObject.cpp (41)] Buffer object 7 ha reservado 192 bytes
+[Fri May 22 19:42:05 2020] INF: [bufferObject.cpp (41)] Buffer object 8 ha reservado 4800 bytes
+[Fri May 22 19:42:05 2020] INF: [bufferObject.cpp (41)] Buffer object 9 ha reservado 4800 bytes
+[Fri May 22 19:42:05 2020] INF: [bufferObject.cpp (41)] Buffer object 10 ha reservado 3200 bytes
+[Fri May 22 19:42:05 2020] INF: [bufferObject.cpp (41)] Buffer object 11 ha reservado 3116 bytes
+[Fri May 22 19:42:05 2020] INF: [fbo.cpp (21)] Framebuffer object 1 creado
+[Fri May 22 19:42:05 2020] INF: [bufferObject.cpp (41)] Buffer object 12 ha reservado 260 bytes
+[Fri May 22 19:42:05 2020] INF: [bufferObject.cpp (41)] Buffer object 13 ha reservado 432 bytes
+[Fri May 22 19:42:05 2020] INF: [bufferObject.cpp (41)] Buffer object 14 ha reservado 432 bytes
+[Fri May 22 19:42:05 2020] INF: [bufferObject.cpp (41)] Buffer object 15 ha reservado 288 bytes
+[Fri May 22 19:42:05 2020] INF: [bufferObject.cpp (41)] Buffer object 16 ha reservado 48 bytes
+[Fri May 22 19:42:05 2020] INF: [bufferObject.cpp (41)] Buffer object 17 ha reservado 32 bytes
+[Fri May 22 19:42:05 2020] INF: [bindableTexture.cpp (42)] Textura de tipo GL_TEXTURE_2D creada con id 1
+[Fri May 22 19:42:05 2020] INF: [app.cpp (665)] Unidad de textura reservada para PGUPV: 191
+[Fri May 22 19:42:05 2020] INF: [bufferObject.cpp (41)] Buffer object 18 ha reservado 80 bytes
+[Fri May 22 19:42:05 2020] INF: [uboMaterial.cpp (54)] UBO Material creado
+[Fri May 22 19:42:05 2020] INF: [bufferObject.cpp (41)] Buffer object 19 ha reservado 80 bytes
+[Fri May 22 19:42:05 2020] INF: [uboMaterial.cpp (54)] UBO Material creado
+[Fri May 22 19:42:05 2020] INF: [bufferObject.cpp (41)] Buffer object 20 ha reservado 80 bytes
+[Fri May 22 19:42:05 2020] INF: [uboMaterial.cpp (54)] UBO Material creado
+[Fri May 22 19:42:05 2020] INF: [bufferObject.cpp (41)] Buffer object 21 ha reservado 80 bytes
+[Fri May 22 19:42:05 2020] INF: [uboMaterial.cpp (54)] UBO Material creado
+[Fri May 22 19:42:05 2020] INF: [assimpWrapper.cpp (93)] El modelo ../recursos/modelos/teapot.3ds no tiene animaciones
+[Fri May 22 19:42:05 2020] INF: [bufferObject.cpp (41)] Buffer object 22 ha reservado 80 bytes
+[Fri May 22 19:42:05 2020] INF: [uboMaterial.cpp (54)] UBO Material creado
+[Fri May 22 19:42:05 2020] INF: [assimpWrapper.cpp (414)] Material: %%%DEFAULT
+Amb: (0, 0, 0) Dif: (0.3, 0.3, 0.3) Esp: (0, 0, 0) Emi: (0, 0, 0) 
+Shading model *ignored*: Simple Gouraud shading
+Textures:
+ TextureCount: 00000000000000000000000000000000
+[Fri May 22 19:42:05 2020] INF: [assimpWrapper.cpp (193)] Mesh #0 (0). Tris: 3080. Vtx: 1597 with normals WITHOUT tangents
+[Fri May 22 19:42:05 2020] INF: [bufferObject.cpp (41)] Buffer object 23 ha reservado 36960 bytes
+[Fri May 22 19:42:05 2020] INF: [bufferObject.cpp (41)] Buffer object 24 ha reservado 19164 bytes
+[Fri May 22 19:42:05 2020] INF: [bufferObject.cpp (41)] Buffer object 25 ha reservado 19164 bytes
+[Fri May 22 19:42:05 2020] INF: [fileLoader.cpp (293)] Grafo de escena:
+Transform (<3DSDummyRoot>) BB: [-1.99513 -> 2.21556, 1.0091e-09 -> 2.06155, -1.34067 -> 1.27718] 1 hijos 
+Mat: [
+1 0 0 0
+0 0 1 0
+0 -1 0 0
+0 0 0 1]
+  Transform (3DSMesh_0) BB: [-1.99513 -> 2.21556, -1.27718 -> 1.34067, 1.0091e-09 -> 2.06155] 1 hijos 
+  Mat: [
+  1 0 0 0
+  0 1 0 0
+  0 0 1 0
+  0 0 0 1]
+    Geode (3DSMesh_0) BB: [-1.99513 -> 2.21556, -1.27718 -> 1.34067, 1.0091e-09 -> 2.06155] 1 mallas { [0] 1597 vert 1 draws}
+
+[Fri May 22 19:42:05 2020] INF: [bufferObject.cpp (41)] Buffer object 26 ha reservado 368 bytes
+[Fri May 22 19:42:05 2020] INF: [glMatrices.cpp (160)] UBO GLMatrices creado
+[Fri May 22 19:42:05 2020] INF: [bufferObject.cpp (41)] Buffer object 27 ha reservado 576 bytes
+[Fri May 22 19:42:05 2020] INF: [uboLightSources.cpp (86)] UBO LightSources creado
+[Fri May 22 19:42:05 2020] INF: [shader.cpp (169)] Compilando ../p10/p10.vert
+[Fri May 22 19:42:05 2020] INF: [shader.cpp (169)] Compilando ../p10/p10.frag
+[Fri May 22 19:42:05 2020] INF: [bufferObject.cpp (41)] Buffer object 28 ha reservado 368 bytes
+[Fri May 22 19:42:05 2020] INF: [glMatrices.cpp (160)] UBO GLMatrices creado
+[Fri May 22 19:42:05 2020] INF: [shader.cpp (169)] Compilando ../p10/shadowMap.vert
+[Fri May 22 19:42:05 2020] INF: [shader.cpp (169)] Compilando ../p10/shadowMap.frag
+[Fri May 22 19:42:05 2020] INF: [shader.cpp (169)] Compilando ../p10/zbuffershow.vert
+[Fri May 22 19:42:05 2020] INF: [shader.cpp (169)] Compilando ../p10/zbuffershow.frag
+[Fri May 22 19:42:05 2020] INF: [stockPrograms.h (36)] StockProgram creado
+[Fri May 22 19:42:05 2020] INF: [shader.cpp (169)] Compilando 
+[Fri May 22 19:42:05 2020] INF: [shader.cpp (169)] Compilando 
+[Fri May 22 19:42:09 2020] INF: [app.cpp (599)] Aplicación terminada normalmente
+[Fri May 22 19:42:09 2020] INF: [bufferObject.cpp (19)] Buffer object 16 (Vertices) destruído
+[Fri May 22 19:42:09 2020] INF: [bufferObject.cpp (19)] Buffer object 17 (Coord. de textura (0)) destruído
+[Fri May 22 19:42:09 2020] INF: [bufferObject.cpp (19)] Buffer object 13 (Vertices) destruído
+[Fri May 22 19:42:09 2020] INF: [bufferObject.cpp (19)] Buffer object 14 (Normales) destruído
+[Fri May 22 19:42:09 2020] INF: [bufferObject.cpp (19)] Buffer object 12 (Indices) destruído
+[Fri May 22 19:42:09 2020] INF: [bufferObject.cpp (19)] Buffer object 15 (Coord. de textura (0)) destruído
+[Fri May 22 19:42:09 2020] INF: [fbo.cpp (44)] Framebuffer object 1 destruído
+[Fri May 22 19:42:09 2020] INF: [bindableTexture.cpp (48)] Textura con id 1 destruída
+[Fri May 22 19:42:09 2020] INF: [bufferObject.cpp (19)] Buffer object 21 (Material) destruído
+[Fri May 22 19:42:09 2020] INF: [bufferObject.cpp (19)] Buffer object 8 (Vertices) destruído
+[Fri May 22 19:42:09 2020] INF: [bufferObject.cpp (19)] Buffer object 9 (Normales) destruído
+[Fri May 22 19:42:09 2020] INF: [bufferObject.cpp (19)] Buffer object 11 (Indices) destruído
+[Fri May 22 19:42:09 2020] INF: [bufferObject.cpp (19)] Buffer object 10 (Coord. de textura (0)) destruído
+[Fri May 22 19:42:09 2020] INF: [bufferObject.cpp (19)] Buffer object 20 (Material) destruído
+[Fri May 22 19:42:09 2020] INF: [bufferObject.cpp (19)] Buffer object 6 (Vertices) destruído
+[Fri May 22 19:42:09 2020] INF: [bufferObject.cpp (19)] Buffer object 5 (Normales) destruído
+[Fri May 22 19:42:09 2020] INF: [bufferObject.cpp (19)] Buffer object 7 (Coord. de textura (0)) destruído
+[Fri May 22 19:42:09 2020] INF: [bufferObject.cpp (19)] Buffer object 18 (Material) destruído
+[Fri May 22 19:42:09 2020] INF: [bufferObject.cpp (19)] Buffer object 2 (Vertices) destruído
+[Fri May 22 19:42:09 2020] INF: [bufferObject.cpp (19)] Buffer object 3 (Normales) destruído
+[Fri May 22 19:42:09 2020] INF: [bufferObject.cpp (19)] Buffer object 1 (Indices) destruído
+[Fri May 22 19:42:09 2020] INF: [bufferObject.cpp (19)] Buffer object 4 (Coord. de textura (0)) destruído
+[Fri May 22 19:42:09 2020] INF: [bufferObject.cpp (19)] Buffer object 22 (Material) destruído
+[Fri May 22 19:42:09 2020] INF: [bufferObject.cpp (19)] Buffer object 19 (Material) destruído
+[Fri May 22 19:42:09 2020] INF: [bufferObject.cpp (19)] Buffer object 24 (Vertices) destruído
+[Fri May 22 19:42:09 2020] INF: [bufferObject.cpp (19)] Buffer object 25 (Normales) destruído
+[Fri May 22 19:42:09 2020] INF: [bufferObject.cpp (19)] Buffer object 23 (Indices) destruído
+[Fri May 22 19:42:09 2020] INF: [bufferObject.cpp (19)] Buffer object 27 (Lights) destruído
+[Fri May 22 19:42:09 2020] INF: [bufferObject.cpp (19)] Buffer object 28 (GLMatrices) destruído
+[Fri May 22 19:42:09 2020] INF: [bufferObject.cpp (19)] Buffer object 26 (GLMatrices) destruído
+[Fri May 22 19:42:09 2020] INF: [app.cpp (93)] App destroyed
+[Fri May 22 19:42:09 2020] INF: [log.cpp (46)] Closing Log
+
+[Mon May 25 13:51:09 2020] INF: [app.cpp (86)] App created
+[Mon May 25 13:51:09 2020] INF: [app.cpp (106)] Iniciando aplicación D:\PG\practPG10\bin\p10d.exe
+[Mon May 25 13:51:11 2020] INF: [sdlAdapter.cpp (489)] Window Properties: DOUBLE_BUFFER 
+[Mon May 25 13:51:11 2020] INF: [sdlAdapter.cpp (491)] SDL Window flags: SDL_WINDOW_OPENGL SDL_WINDOW_SHOWN SDL_WINDOW_RESIZABLE SDL_WINDOW_INPUT_FOCUS SDL_WINDOW_MOUSE_FOCUS 
+[Mon May 25 13:51:11 2020] INF: [sdlAdapter.cpp (494)] SDL Context flags: SDL_GL_CONTEXT_DEBUG_FLAG 
+[Mon May 25 13:51:11 2020] INF: [window.cpp (128)] Ventana creada. Soporte de OpenGL: GL_VERSION_4_5
+[Mon May 25 13:51:11 2020] INF: [windowBuilder.cpp (75)] Información del driver:
+GL_VENDOR: NVIDIA Corporation
+GL_RENDERER: GeForce GTX 1050/PCIe/SSE2
+GL_VERSION: 4.5.0 NVIDIA 398.36
+GL_SHADING_LANGUAGE_VERSION: 4.50 NVIDIA
+Tamaño del framebuffer por defecto:
+   bits de color: (8, 8, 8, 0), depth: 24, stencil: 0
+
+[Mon May 25 13:51:11 2020] INF: [app.cpp (161)] Library versions
+PGUPV 64 bits Debug Revision: 2040
+Boost: 1_69
+SDL: Runtime: 2.0.8 Compiled: 2.0.8
+Assimp: 4.1.0
+GLEW: 2.2.0
+Par Shapes: http://github.prideout.net/shapes @ August 2016
+GLI: 0.8.3
+FreeImage: 3.18.0
+ImGui: 1.70
+[Mon May 25 13:51:11 2020] INF: [app.cpp (418)] No se han encontrado joysticks en el sistema
+[Mon May 25 13:51:11 2020] INF: [bufferObject.cpp (41)] Buffer object 1 ha reservado 3320 bytes
+[Mon May 25 13:51:11 2020] INF: [bufferObject.cpp (41)] Buffer object 2 ha reservado 5412 bytes
+[Mon May 25 13:51:11 2020] INF: [bufferObject.cpp (41)] Buffer object 3 ha reservado 5412 bytes
+[Mon May 25 13:51:11 2020] INF: [bufferObject.cpp (41)] Buffer object 4 ha reservado 3608 bytes
+[Mon May 25 13:51:11 2020] INF: [bufferObject.cpp (41)] Buffer object 5 ha reservado 288 bytes
+[Mon May 25 13:51:11 2020] INF: [bufferObject.cpp (41)] Buffer object 6 ha reservado 288 bytes
+[Mon May 25 13:51:11 2020] INF: [bufferObject.cpp (41)] Buffer object 7 ha reservado 192 bytes
+[Mon May 25 13:51:11 2020] INF: [bufferObject.cpp (41)] Buffer object 8 ha reservado 4800 bytes
+[Mon May 25 13:51:11 2020] INF: [bufferObject.cpp (41)] Buffer object 9 ha reservado 4800 bytes
+[Mon May 25 13:51:11 2020] INF: [bufferObject.cpp (41)] Buffer object 10 ha reservado 3200 bytes
+[Mon May 25 13:51:11 2020] INF: [bufferObject.cpp (41)] Buffer object 11 ha reservado 3116 bytes
+[Mon May 25 13:51:11 2020] INF: [fbo.cpp (21)] Framebuffer object 1 creado
+[Mon May 25 13:51:11 2020] INF: [bufferObject.cpp (41)] Buffer object 12 ha reservado 260 bytes
+[Mon May 25 13:51:11 2020] INF: [bufferObject.cpp (41)] Buffer object 13 ha reservado 432 bytes
+[Mon May 25 13:51:11 2020] INF: [bufferObject.cpp (41)] Buffer object 14 ha reservado 432 bytes
+[Mon May 25 13:51:11 2020] INF: [bufferObject.cpp (41)] Buffer object 15 ha reservado 288 bytes
+[Mon May 25 13:51:11 2020] INF: [bufferObject.cpp (41)] Buffer object 16 ha reservado 48 bytes
+[Mon May 25 13:51:11 2020] INF: [bufferObject.cpp (41)] Buffer object 17 ha reservado 32 bytes
+[Mon May 25 13:51:11 2020] INF: [bindableTexture.cpp (42)] Textura de tipo GL_TEXTURE_2D creada con id 1
+[Mon May 25 13:51:11 2020] INF: [app.cpp (665)] Unidad de textura reservada para PGUPV: 191
+[Mon May 25 13:51:11 2020] INF: [bufferObject.cpp (41)] Buffer object 18 ha reservado 80 bytes
+[Mon May 25 13:51:11 2020] INF: [uboMaterial.cpp (54)] UBO Material creado
+[Mon May 25 13:51:11 2020] INF: [bufferObject.cpp (41)] Buffer object 19 ha reservado 80 bytes
+[Mon May 25 13:51:11 2020] INF: [uboMaterial.cpp (54)] UBO Material creado
+[Mon May 25 13:51:11 2020] INF: [bufferObject.cpp (41)] Buffer object 20 ha reservado 80 bytes
+[Mon May 25 13:51:11 2020] INF: [uboMaterial.cpp (54)] UBO Material creado
+[Mon May 25 13:51:11 2020] INF: [bufferObject.cpp (41)] Buffer object 21 ha reservado 80 bytes
+[Mon May 25 13:51:11 2020] INF: [uboMaterial.cpp (54)] UBO Material creado
+[Mon May 25 13:51:11 2020] INF: [assimpWrapper.cpp (93)] El modelo ../recursos/modelos/teapot.3ds no tiene animaciones
+[Mon May 25 13:51:11 2020] INF: [bufferObject.cpp (41)] Buffer object 22 ha reservado 80 bytes
+[Mon May 25 13:51:11 2020] INF: [uboMaterial.cpp (54)] UBO Material creado
+[Mon May 25 13:51:11 2020] INF: [assimpWrapper.cpp (414)] Material: %%%DEFAULT
+Amb: (0, 0, 0) Dif: (0.3, 0.3, 0.3) Esp: (0, 0, 0) Emi: (0, 0, 0) 
+Shading model *ignored*: Simple Gouraud shading
+Textures:
+ TextureCount: 00000000000000000000000000000000
+[Mon May 25 13:51:11 2020] INF: [assimpWrapper.cpp (193)] Mesh #0 (0). Tris: 3080. Vtx: 1597 with normals WITHOUT tangents
+[Mon May 25 13:51:11 2020] INF: [bufferObject.cpp (41)] Buffer object 23 ha reservado 36960 bytes
+[Mon May 25 13:51:11 2020] INF: [bufferObject.cpp (41)] Buffer object 24 ha reservado 19164 bytes
+[Mon May 25 13:51:11 2020] INF: [bufferObject.cpp (41)] Buffer object 25 ha reservado 19164 bytes
+[Mon May 25 13:51:11 2020] INF: [fileLoader.cpp (293)] Grafo de escena:
+Transform (<3DSDummyRoot>) BB: [-1.99513 -> 2.21556, 1.0091e-09 -> 2.06155, -1.34067 -> 1.27718] 1 hijos 
+Mat: [
+1 0 0 0
+0 0 1 0
+0 -1 0 0
+0 0 0 1]
+  Transform (3DSMesh_0) BB: [-1.99513 -> 2.21556, -1.27718 -> 1.34067, 1.0091e-09 -> 2.06155] 1 hijos 
+  Mat: [
+  1 0 0 0
+  0 1 0 0
+  0 0 1 0
+  0 0 0 1]
+    Geode (3DSMesh_0) BB: [-1.99513 -> 2.21556, -1.27718 -> 1.34067, 1.0091e-09 -> 2.06155] 1 mallas { [0] 1597 vert 1 draws}
+
+[Mon May 25 13:51:11 2020] INF: [bufferObject.cpp (41)] Buffer object 26 ha reservado 368 bytes
+[Mon May 25 13:51:11 2020] INF: [glMatrices.cpp (160)] UBO GLMatrices creado
+[Mon May 25 13:51:11 2020] INF: [bufferObject.cpp (41)] Buffer object 27 ha reservado 576 bytes
+[Mon May 25 13:51:11 2020] INF: [uboLightSources.cpp (86)] UBO LightSources creado
+[Mon May 25 13:51:11 2020] INF: [shader.cpp (169)] Compilando ../p10/p10.vert
+[Mon May 25 13:51:11 2020] INF: [shader.cpp (169)] Compilando ../p10/p10.frag
+[Mon May 25 13:51:11 2020] INF: [bufferObject.cpp (41)] Buffer object 28 ha reservado 368 bytes
+[Mon May 25 13:51:11 2020] INF: [glMatrices.cpp (160)] UBO GLMatrices creado
+[Mon May 25 13:51:11 2020] INF: [shader.cpp (169)] Compilando ../p10/shadowMap.vert
+[Mon May 25 13:51:11 2020] INF: [shader.cpp (169)] Compilando ../p10/shadowMap.frag
+[Mon May 25 13:51:11 2020] INF: [shader.cpp (169)] Compilando ../p10/zbuffershow.vert
+[Mon May 25 13:51:11 2020] INF: [shader.cpp (169)] Compilando ../p10/zbuffershow.frag
+[Mon May 25 13:51:11 2020] INF: [stockPrograms.h (36)] StockProgram creado
+[Mon May 25 13:51:11 2020] INF: [shader.cpp (169)] Compilando 
+[Mon May 25 13:51:11 2020] INF: [shader.cpp (169)] Compilando 
+[Mon May 25 13:51:19 2020] WAR: [keyboard.cpp (78)] Se ha soltado una tecla que no se había pulsado
+[Mon May 25 13:51:58 2020] INF: [app.cpp (599)] Aplicación terminada normalmente
+[Mon May 25 13:51:58 2020] INF: [bufferObject.cpp (19)] Buffer object 16 (Vertices) destruído
+[Mon May 25 13:51:58 2020] INF: [bufferObject.cpp (19)] Buffer object 17 (Coord. de textura (0)) destruído
+[Mon May 25 13:51:58 2020] INF: [bufferObject.cpp (19)] Buffer object 13 (Vertices) destruído
+[Mon May 25 13:51:58 2020] INF: [bufferObject.cpp (19)] Buffer object 14 (Normales) destruído
+[Mon May 25 13:51:58 2020] INF: [bufferObject.cpp (19)] Buffer object 12 (Indices) destruído
+[Mon May 25 13:51:58 2020] INF: [bufferObject.cpp (19)] Buffer object 15 (Coord. de textura (0)) destruído
+[Mon May 25 13:51:58 2020] INF: [fbo.cpp (44)] Framebuffer object 1 destruído
+[Mon May 25 13:51:58 2020] INF: [bindableTexture.cpp (48)] Textura con id 1 destruída
+[Mon May 25 13:51:58 2020] INF: [bufferObject.cpp (19)] Buffer object 21 (Material) destruído
+[Mon May 25 13:51:58 2020] INF: [bufferObject.cpp (19)] Buffer object 8 (Vertices) destruído
+[Mon May 25 13:51:58 2020] INF: [bufferObject.cpp (19)] Buffer object 9 (Normales) destruído
+[Mon May 25 13:51:58 2020] INF: [bufferObject.cpp (19)] Buffer object 11 (Indices) destruído
+[Mon May 25 13:51:58 2020] INF: [bufferObject.cpp (19)] Buffer object 10 (Coord. de textura (0)) destruído
+[Mon May 25 13:51:58 2020] INF: [bufferObject.cpp (19)] Buffer object 20 (Material) destruído
+[Mon May 25 13:51:58 2020] INF: [bufferObject.cpp (19)] Buffer object 6 (Vertices) destruído
+[Mon May 25 13:51:58 2020] INF: [bufferObject.cpp (19)] Buffer object 5 (Normales) destruído
+[Mon May 25 13:51:58 2020] INF: [bufferObject.cpp (19)] Buffer object 7 (Coord. de textura (0)) destruído
+[Mon May 25 13:51:58 2020] INF: [bufferObject.cpp (19)] Buffer object 18 (Material) destruído
+[Mon May 25 13:51:58 2020] INF: [bufferObject.cpp (19)] Buffer object 2 (Vertices) destruído
+[Mon May 25 13:51:58 2020] INF: [bufferObject.cpp (19)] Buffer object 3 (Normales) destruído
+[Mon May 25 13:51:58 2020] INF: [bufferObject.cpp (19)] Buffer object 1 (Indices) destruído
+[Mon May 25 13:51:58 2020] INF: [bufferObject.cpp (19)] Buffer object 4 (Coord. de textura (0)) destruído
+[Mon May 25 13:51:58 2020] INF: [bufferObject.cpp (19)] Buffer object 22 (Material) destruído
+[Mon May 25 13:51:58 2020] INF: [bufferObject.cpp (19)] Buffer object 19 (Material) destruído
+[Mon May 25 13:51:58 2020] INF: [bufferObject.cpp (19)] Buffer object 24 (Vertices) destruído
+[Mon May 25 13:51:58 2020] INF: [bufferObject.cpp (19)] Buffer object 25 (Normales) destruído
+[Mon May 25 13:51:58 2020] INF: [bufferObject.cpp (19)] Buffer object 23 (Indices) destruído
+[Mon May 25 13:51:58 2020] INF: [bufferObject.cpp (19)] Buffer object 27 (Lights) destruído
+[Mon May 25 13:51:58 2020] INF: [bufferObject.cpp (19)] Buffer object 28 (GLMatrices) destruído
+[Mon May 25 13:51:58 2020] INF: [bufferObject.cpp (19)] Buffer object 26 (GLMatrices) destruído
+[Mon May 25 13:51:58 2020] INF: [app.cpp (93)] App destroyed
+[Mon May 25 13:51:58 2020] INF: [log.cpp (46)] Closing Log
+
+[Mon May 25 13:59:21 2020] INF: [app.cpp (86)] App created
+[Mon May 25 13:59:21 2020] INF: [app.cpp (106)] Iniciando aplicación D:\PG\practPG10\bin\p10d.exe
+[Mon May 25 13:59:22 2020] INF: [sdlAdapter.cpp (489)] Window Properties: DOUBLE_BUFFER 
+[Mon May 25 13:59:22 2020] INF: [sdlAdapter.cpp (491)] SDL Window flags: SDL_WINDOW_OPENGL SDL_WINDOW_SHOWN SDL_WINDOW_RESIZABLE SDL_WINDOW_INPUT_FOCUS SDL_WINDOW_MOUSE_FOCUS 
+[Mon May 25 13:59:22 2020] INF: [sdlAdapter.cpp (494)] SDL Context flags: SDL_GL_CONTEXT_DEBUG_FLAG 
+[Mon May 25 13:59:22 2020] INF: [window.cpp (128)] Ventana creada. Soporte de OpenGL: GL_VERSION_4_5
+[Mon May 25 13:59:22 2020] INF: [windowBuilder.cpp (75)] Información del driver:
+GL_VENDOR: NVIDIA Corporation
+GL_RENDERER: GeForce GTX 1050/PCIe/SSE2
+GL_VERSION: 4.5.0 NVIDIA 398.36
+GL_SHADING_LANGUAGE_VERSION: 4.50 NVIDIA
+Tamaño del framebuffer por defecto:
+   bits de color: (8, 8, 8, 0), depth: 24, stencil: 0
+
+[Mon May 25 13:59:22 2020] INF: [app.cpp (161)] Library versions
+PGUPV 64 bits Debug Revision: 2040
+Boost: 1_69
+SDL: Runtime: 2.0.8 Compiled: 2.0.8
+Assimp: 4.1.0
+GLEW: 2.2.0
+Par Shapes: http://github.prideout.net/shapes @ August 2016
+GLI: 0.8.3
+FreeImage: 3.18.0
+ImGui: 1.70
+[Mon May 25 13:59:22 2020] INF: [app.cpp (418)] No se han encontrado joysticks en el sistema
+[Mon May 25 13:59:22 2020] INF: [bufferObject.cpp (41)] Buffer object 1 ha reservado 3320 bytes
+[Mon May 25 13:59:22 2020] INF: [bufferObject.cpp (41)] Buffer object 2 ha reservado 5412 bytes
+[Mon May 25 13:59:22 2020] INF: [bufferObject.cpp (41)] Buffer object 3 ha reservado 5412 bytes
+[Mon May 25 13:59:22 2020] INF: [bufferObject.cpp (41)] Buffer object 4 ha reservado 3608 bytes
+[Mon May 25 13:59:22 2020] INF: [bufferObject.cpp (41)] Buffer object 5 ha reservado 288 bytes
+[Mon May 25 13:59:22 2020] INF: [bufferObject.cpp (41)] Buffer object 6 ha reservado 288 bytes
+[Mon May 25 13:59:22 2020] INF: [bufferObject.cpp (41)] Buffer object 7 ha reservado 192 bytes
+[Mon May 25 13:59:22 2020] INF: [bufferObject.cpp (41)] Buffer object 8 ha reservado 4800 bytes
+[Mon May 25 13:59:22 2020] INF: [bufferObject.cpp (41)] Buffer object 9 ha reservado 4800 bytes
+[Mon May 25 13:59:22 2020] INF: [bufferObject.cpp (41)] Buffer object 10 ha reservado 3200 bytes
+[Mon May 25 13:59:22 2020] INF: [bufferObject.cpp (41)] Buffer object 11 ha reservado 3116 bytes
+[Mon May 25 13:59:22 2020] INF: [fbo.cpp (21)] Framebuffer object 1 creado
+[Mon May 25 13:59:22 2020] INF: [bufferObject.cpp (41)] Buffer object 12 ha reservado 260 bytes
+[Mon May 25 13:59:22 2020] INF: [bufferObject.cpp (41)] Buffer object 13 ha reservado 432 bytes
+[Mon May 25 13:59:22 2020] INF: [bufferObject.cpp (41)] Buffer object 14 ha reservado 432 bytes
+[Mon May 25 13:59:22 2020] INF: [bufferObject.cpp (41)] Buffer object 15 ha reservado 288 bytes
+[Mon May 25 13:59:22 2020] INF: [bufferObject.cpp (41)] Buffer object 16 ha reservado 48 bytes
+[Mon May 25 13:59:22 2020] INF: [bufferObject.cpp (41)] Buffer object 17 ha reservado 32 bytes
+[Mon May 25 13:59:22 2020] INF: [bindableTexture.cpp (42)] Textura de tipo GL_TEXTURE_2D creada con id 1
+[Mon May 25 13:59:22 2020] INF: [app.cpp (665)] Unidad de textura reservada para PGUPV: 191
+[Mon May 25 13:59:22 2020] INF: [bufferObject.cpp (41)] Buffer object 18 ha reservado 80 bytes
+[Mon May 25 13:59:22 2020] INF: [uboMaterial.cpp (54)] UBO Material creado
+[Mon May 25 13:59:22 2020] INF: [bufferObject.cpp (41)] Buffer object 19 ha reservado 80 bytes
+[Mon May 25 13:59:22 2020] INF: [uboMaterial.cpp (54)] UBO Material creado
+[Mon May 25 13:59:22 2020] INF: [bufferObject.cpp (41)] Buffer object 20 ha reservado 80 bytes
+[Mon May 25 13:59:22 2020] INF: [uboMaterial.cpp (54)] UBO Material creado
+[Mon May 25 13:59:22 2020] INF: [bufferObject.cpp (41)] Buffer object 21 ha reservado 80 bytes
+[Mon May 25 13:59:22 2020] INF: [uboMaterial.cpp (54)] UBO Material creado
+[Mon May 25 13:59:22 2020] INF: [assimpWrapper.cpp (93)] El modelo ../recursos/modelos/teapot.3ds no tiene animaciones
+[Mon May 25 13:59:22 2020] INF: [bufferObject.cpp (41)] Buffer object 22 ha reservado 80 bytes
+[Mon May 25 13:59:22 2020] INF: [uboMaterial.cpp (54)] UBO Material creado
+[Mon May 25 13:59:22 2020] INF: [assimpWrapper.cpp (414)] Material: %%%DEFAULT
+Amb: (0, 0, 0) Dif: (0.3, 0.3, 0.3) Esp: (0, 0, 0) Emi: (0, 0, 0) 
+Shading model *ignored*: Simple Gouraud shading
+Textures:
+ TextureCount: 00000000000000000000000000000000
+[Mon May 25 13:59:22 2020] INF: [assimpWrapper.cpp (193)] Mesh #0 (0). Tris: 3080. Vtx: 1597 with normals WITHOUT tangents
+[Mon May 25 13:59:22 2020] INF: [bufferObject.cpp (41)] Buffer object 23 ha reservado 36960 bytes
+[Mon May 25 13:59:22 2020] INF: [bufferObject.cpp (41)] Buffer object 24 ha reservado 19164 bytes
+[Mon May 25 13:59:22 2020] INF: [bufferObject.cpp (41)] Buffer object 25 ha reservado 19164 bytes
+[Mon May 25 13:59:22 2020] INF: [fileLoader.cpp (293)] Grafo de escena:
+Transform (<3DSDummyRoot>) BB: [-1.99513 -> 2.21556, 1.0091e-09 -> 2.06155, -1.34067 -> 1.27718] 1 hijos 
+Mat: [
+1 0 0 0
+0 0 1 0
+0 -1 0 0
+0 0 0 1]
+  Transform (3DSMesh_0) BB: [-1.99513 -> 2.21556, -1.27718 -> 1.34067, 1.0091e-09 -> 2.06155] 1 hijos 
+  Mat: [
+  1 0 0 0
+  0 1 0 0
+  0 0 1 0
+  0 0 0 1]
+    Geode (3DSMesh_0) BB: [-1.99513 -> 2.21556, -1.27718 -> 1.34067, 1.0091e-09 -> 2.06155] 1 mallas { [0] 1597 vert 1 draws}
+
+[Mon May 25 13:59:22 2020] INF: [bufferObject.cpp (41)] Buffer object 26 ha reservado 368 bytes
+[Mon May 25 13:59:22 2020] INF: [glMatrices.cpp (160)] UBO GLMatrices creado
+[Mon May 25 13:59:22 2020] INF: [bufferObject.cpp (41)] Buffer object 27 ha reservado 576 bytes
+[Mon May 25 13:59:22 2020] INF: [uboLightSources.cpp (86)] UBO LightSources creado
+[Mon May 25 13:59:22 2020] INF: [shader.cpp (169)] Compilando ../p10/p10.vert
+[Mon May 25 13:59:22 2020] INF: [shader.cpp (169)] Compilando ../p10/p10.frag
+[Mon May 25 13:59:22 2020] INF: [bufferObject.cpp (41)] Buffer object 28 ha reservado 368 bytes
+[Mon May 25 13:59:22 2020] INF: [glMatrices.cpp (160)] UBO GLMatrices creado
+[Mon May 25 13:59:22 2020] INF: [shader.cpp (169)] Compilando ../p10/shadowMap.vert
+[Mon May 25 13:59:22 2020] INF: [shader.cpp (169)] Compilando ../p10/shadowMap.frag
+[Mon May 25 13:59:22 2020] INF: [shader.cpp (169)] Compilando ../p10/zbuffershow.vert
+[Mon May 25 13:59:22 2020] INF: [shader.cpp (169)] Compilando ../p10/zbuffershow.frag
+[Mon May 25 13:59:22 2020] INF: [stockPrograms.h (36)] StockProgram creado
+[Mon May 25 13:59:22 2020] INF: [shader.cpp (169)] Compilando 
+[Mon May 25 13:59:22 2020] INF: [shader.cpp (169)] Compilando 
+[Mon May 25 13:59:36 2020] INF: [app.cpp (599)] Aplicación terminada normalmente
+[Mon May 25 13:59:36 2020] INF: [bufferObject.cpp (19)] Buffer object 16 (Vertices) destruído
+[Mon May 25 13:59:36 2020] INF: [bufferObject.cpp (19)] Buffer object 17 (Coord. de textura (0)) destruído
+[Mon May 25 13:59:36 2020] INF: [bufferObject.cpp (19)] Buffer object 13 (Vertices) destruído
+[Mon May 25 13:59:36 2020] INF: [bufferObject.cpp (19)] Buffer object 14 (Normales) destruído
+[Mon May 25 13:59:36 2020] INF: [bufferObject.cpp (19)] Buffer object 12 (Indices) destruído
+[Mon May 25 13:59:36 2020] INF: [bufferObject.cpp (19)] Buffer object 15 (Coord. de textura (0)) destruído
+[Mon May 25 13:59:36 2020] INF: [fbo.cpp (44)] Framebuffer object 1 destruído
+[Mon May 25 13:59:36 2020] INF: [bindableTexture.cpp (48)] Textura con id 1 destruída
+[Mon May 25 13:59:36 2020] INF: [bufferObject.cpp (19)] Buffer object 21 (Material) destruído
+[Mon May 25 13:59:36 2020] INF: [bufferObject.cpp (19)] Buffer object 8 (Vertices) destruído
+[Mon May 25 13:59:36 2020] INF: [bufferObject.cpp (19)] Buffer object 9 (Normales) destruído
+[Mon May 25 13:59:36 2020] INF: [bufferObject.cpp (19)] Buffer object 11 (Indices) destruído
+[Mon May 25 13:59:36 2020] INF: [bufferObject.cpp (19)] Buffer object 10 (Coord. de textura (0)) destruído
+[Mon May 25 13:59:36 2020] INF: [bufferObject.cpp (19)] Buffer object 20 (Material) destruído
+[Mon May 25 13:59:36 2020] INF: [bufferObject.cpp (19)] Buffer object 6 (Vertices) destruído
+[Mon May 25 13:59:36 2020] INF: [bufferObject.cpp (19)] Buffer object 5 (Normales) destruído
+[Mon May 25 13:59:36 2020] INF: [bufferObject.cpp (19)] Buffer object 7 (Coord. de textura (0)) destruído
+[Mon May 25 13:59:36 2020] INF: [bufferObject.cpp (19)] Buffer object 18 (Material) destruído
+[Mon May 25 13:59:36 2020] INF: [bufferObject.cpp (19)] Buffer object 2 (Vertices) destruído
+[Mon May 25 13:59:36 2020] INF: [bufferObject.cpp (19)] Buffer object 3 (Normales) destruído
+[Mon May 25 13:59:36 2020] INF: [bufferObject.cpp (19)] Buffer object 1 (Indices) destruído
+[Mon May 25 13:59:36 2020] INF: [bufferObject.cpp (19)] Buffer object 4 (Coord. de textura (0)) destruído
+[Mon May 25 13:59:36 2020] INF: [bufferObject.cpp (19)] Buffer object 22 (Material) destruído
+[Mon May 25 13:59:36 2020] INF: [bufferObject.cpp (19)] Buffer object 19 (Material) destruído
+[Mon May 25 13:59:36 2020] INF: [bufferObject.cpp (19)] Buffer object 24 (Vertices) destruído
+[Mon May 25 13:59:36 2020] INF: [bufferObject.cpp (19)] Buffer object 25 (Normales) destruído
+[Mon May 25 13:59:36 2020] INF: [bufferObject.cpp (19)] Buffer object 23 (Indices) destruído
+[Mon May 25 13:59:36 2020] INF: [bufferObject.cpp (19)] Buffer object 27 (Lights) destruído
+[Mon May 25 13:59:36 2020] INF: [bufferObject.cpp (19)] Buffer object 28 (GLMatrices) destruído
+[Mon May 25 13:59:36 2020] INF: [bufferObject.cpp (19)] Buffer object 26 (GLMatrices) destruído
+[Mon May 25 13:59:36 2020] INF: [app.cpp (93)] App destroyed
+[Mon May 25 13:59:36 2020] INF: [log.cpp (46)] Closing Log
+
+[Mon May 25 13:59:48 2020] INF: [app.cpp (86)] App created
+[Mon May 25 13:59:48 2020] INF: [app.cpp (106)] Iniciando aplicación D:\PG\practPG10\bin\p10d.exe
+[Mon May 25 13:59:49 2020] INF: [sdlAdapter.cpp (489)] Window Properties: DOUBLE_BUFFER 
+[Mon May 25 13:59:49 2020] INF: [sdlAdapter.cpp (491)] SDL Window flags: SDL_WINDOW_OPENGL SDL_WINDOW_SHOWN SDL_WINDOW_RESIZABLE SDL_WINDOW_INPUT_FOCUS SDL_WINDOW_MOUSE_FOCUS 
+[Mon May 25 13:59:49 2020] INF: [sdlAdapter.cpp (494)] SDL Context flags: SDL_GL_CONTEXT_DEBUG_FLAG 
+[Mon May 25 13:59:49 2020] INF: [window.cpp (128)] Ventana creada. Soporte de OpenGL: GL_VERSION_4_5
+[Mon May 25 13:59:49 2020] INF: [windowBuilder.cpp (75)] Información del driver:
+GL_VENDOR: NVIDIA Corporation
+GL_RENDERER: GeForce GTX 1050/PCIe/SSE2
+GL_VERSION: 4.5.0 NVIDIA 398.36
+GL_SHADING_LANGUAGE_VERSION: 4.50 NVIDIA
+Tamaño del framebuffer por defecto:
+   bits de color: (8, 8, 8, 0), depth: 24, stencil: 0
+
+[Mon May 25 13:59:49 2020] INF: [app.cpp (161)] Library versions
+PGUPV 64 bits Debug Revision: 2040
+Boost: 1_69
+SDL: Runtime: 2.0.8 Compiled: 2.0.8
+Assimp: 4.1.0
+GLEW: 2.2.0
+Par Shapes: http://github.prideout.net/shapes @ August 2016
+GLI: 0.8.3
+FreeImage: 3.18.0
+ImGui: 1.70
+[Mon May 25 13:59:49 2020] INF: [app.cpp (418)] No se han encontrado joysticks en el sistema
+[Mon May 25 13:59:49 2020] INF: [bufferObject.cpp (41)] Buffer object 1 ha reservado 3320 bytes
+[Mon May 25 13:59:49 2020] INF: [bufferObject.cpp (41)] Buffer object 2 ha reservado 5412 bytes
+[Mon May 25 13:59:49 2020] INF: [bufferObject.cpp (41)] Buffer object 3 ha reservado 5412 bytes
+[Mon May 25 13:59:49 2020] INF: [bufferObject.cpp (41)] Buffer object 4 ha reservado 3608 bytes
+[Mon May 25 13:59:49 2020] INF: [bufferObject.cpp (41)] Buffer object 5 ha reservado 288 bytes
+[Mon May 25 13:59:49 2020] INF: [bufferObject.cpp (41)] Buffer object 6 ha reservado 288 bytes
+[Mon May 25 13:59:49 2020] INF: [bufferObject.cpp (41)] Buffer object 7 ha reservado 192 bytes
+[Mon May 25 13:59:49 2020] INF: [bufferObject.cpp (41)] Buffer object 8 ha reservado 4800 bytes
+[Mon May 25 13:59:49 2020] INF: [bufferObject.cpp (41)] Buffer object 9 ha reservado 4800 bytes
+[Mon May 25 13:59:49 2020] INF: [bufferObject.cpp (41)] Buffer object 10 ha reservado 3200 bytes
+[Mon May 25 13:59:49 2020] INF: [bufferObject.cpp (41)] Buffer object 11 ha reservado 3116 bytes
+[Mon May 25 13:59:49 2020] INF: [fbo.cpp (21)] Framebuffer object 1 creado
+[Mon May 25 13:59:49 2020] INF: [bufferObject.cpp (41)] Buffer object 12 ha reservado 260 bytes
+[Mon May 25 13:59:49 2020] INF: [bufferObject.cpp (41)] Buffer object 13 ha reservado 432 bytes
+[Mon May 25 13:59:49 2020] INF: [bufferObject.cpp (41)] Buffer object 14 ha reservado 432 bytes
+[Mon May 25 13:59:49 2020] INF: [bufferObject.cpp (41)] Buffer object 15 ha reservado 288 bytes
+[Mon May 25 13:59:49 2020] INF: [bufferObject.cpp (41)] Buffer object 16 ha reservado 48 bytes
+[Mon May 25 13:59:49 2020] INF: [bufferObject.cpp (41)] Buffer object 17 ha reservado 32 bytes
+[Mon May 25 13:59:49 2020] INF: [bindableTexture.cpp (42)] Textura de tipo GL_TEXTURE_2D creada con id 1
+[Mon May 25 13:59:49 2020] INF: [app.cpp (665)] Unidad de textura reservada para PGUPV: 191
+[Mon May 25 13:59:49 2020] INF: [bufferObject.cpp (41)] Buffer object 18 ha reservado 80 bytes
+[Mon May 25 13:59:49 2020] INF: [uboMaterial.cpp (54)] UBO Material creado
+[Mon May 25 13:59:49 2020] INF: [bufferObject.cpp (41)] Buffer object 19 ha reservado 80 bytes
+[Mon May 25 13:59:49 2020] INF: [uboMaterial.cpp (54)] UBO Material creado
+[Mon May 25 13:59:49 2020] INF: [bufferObject.cpp (41)] Buffer object 20 ha reservado 80 bytes
+[Mon May 25 13:59:49 2020] INF: [uboMaterial.cpp (54)] UBO Material creado
+[Mon May 25 13:59:49 2020] INF: [bufferObject.cpp (41)] Buffer object 21 ha reservado 80 bytes
+[Mon May 25 13:59:49 2020] INF: [uboMaterial.cpp (54)] UBO Material creado
+[Mon May 25 13:59:49 2020] INF: [assimpWrapper.cpp (93)] El modelo ../recursos/modelos/teapot.3ds no tiene animaciones
+[Mon May 25 13:59:49 2020] INF: [bufferObject.cpp (41)] Buffer object 22 ha reservado 80 bytes
+[Mon May 25 13:59:49 2020] INF: [uboMaterial.cpp (54)] UBO Material creado
+[Mon May 25 13:59:49 2020] INF: [assimpWrapper.cpp (414)] Material: %%%DEFAULT
+Amb: (0, 0, 0) Dif: (0.3, 0.3, 0.3) Esp: (0, 0, 0) Emi: (0, 0, 0) 
+Shading model *ignored*: Simple Gouraud shading
+Textures:
+ TextureCount: 00000000000000000000000000000000
+[Mon May 25 13:59:49 2020] INF: [assimpWrapper.cpp (193)] Mesh #0 (0). Tris: 3080. Vtx: 1597 with normals WITHOUT tangents
+[Mon May 25 13:59:49 2020] INF: [bufferObject.cpp (41)] Buffer object 23 ha reservado 36960 bytes
+[Mon May 25 13:59:49 2020] INF: [bufferObject.cpp (41)] Buffer object 24 ha reservado 19164 bytes
+[Mon May 25 13:59:49 2020] INF: [bufferObject.cpp (41)] Buffer object 25 ha reservado 19164 bytes
+[Mon May 25 13:59:49 2020] INF: [fileLoader.cpp (293)] Grafo de escena:
+Transform (<3DSDummyRoot>) BB: [-1.99513 -> 2.21556, 1.0091e-09 -> 2.06155, -1.34067 -> 1.27718] 1 hijos 
+Mat: [
+1 0 0 0
+0 0 1 0
+0 -1 0 0
+0 0 0 1]
+  Transform (3DSMesh_0) BB: [-1.99513 -> 2.21556, -1.27718 -> 1.34067, 1.0091e-09 -> 2.06155] 1 hijos 
+  Mat: [
+  1 0 0 0
+  0 1 0 0
+  0 0 1 0
+  0 0 0 1]
+    Geode (3DSMesh_0) BB: [-1.99513 -> 2.21556, -1.27718 -> 1.34067, 1.0091e-09 -> 2.06155] 1 mallas { [0] 1597 vert 1 draws}
+
+[Mon May 25 13:59:49 2020] INF: [bufferObject.cpp (41)] Buffer object 26 ha reservado 368 bytes
+[Mon May 25 13:59:49 2020] INF: [glMatrices.cpp (160)] UBO GLMatrices creado
+[Mon May 25 13:59:49 2020] INF: [bufferObject.cpp (41)] Buffer object 27 ha reservado 576 bytes
+[Mon May 25 13:59:49 2020] INF: [uboLightSources.cpp (86)] UBO LightSources creado
+[Mon May 25 13:59:49 2020] INF: [shader.cpp (169)] Compilando ../p10/p10.vert
+[Mon May 25 13:59:49 2020] INF: [shader.cpp (169)] Compilando ../p10/p10.frag
+[Mon May 25 13:59:49 2020] INF: [bufferObject.cpp (41)] Buffer object 28 ha reservado 368 bytes
+[Mon May 25 13:59:49 2020] INF: [glMatrices.cpp (160)] UBO GLMatrices creado
+[Mon May 25 13:59:49 2020] INF: [shader.cpp (169)] Compilando ../p10/shadowMap.vert
+[Mon May 25 13:59:49 2020] INF: [shader.cpp (169)] Compilando ../p10/shadowMap.frag
+[Mon May 25 13:59:49 2020] INF: [shader.cpp (169)] Compilando ../p10/zbuffershow.vert
+[Mon May 25 13:59:49 2020] INF: [shader.cpp (169)] Compilando ../p10/zbuffershow.frag
+[Mon May 25 13:59:49 2020] INF: [stockPrograms.h (36)] StockProgram creado
+[Mon May 25 13:59:49 2020] INF: [shader.cpp (169)] Compilando 
+[Mon May 25 13:59:49 2020] INF: [shader.cpp (169)] Compilando 
+[Mon May 25 14:00:12 2020] INF: [app.cpp (599)] Aplicación terminada normalmente
+[Mon May 25 14:00:12 2020] INF: [bufferObject.cpp (19)] Buffer object 16 (Vertices) destruído
+[Mon May 25 14:00:12 2020] INF: [bufferObject.cpp (19)] Buffer object 17 (Coord. de textura (0)) destruído
+[Mon May 25 14:00:12 2020] INF: [bufferObject.cpp (19)] Buffer object 13 (Vertices) destruído
+[Mon May 25 14:00:12 2020] INF: [bufferObject.cpp (19)] Buffer object 14 (Normales) destruído
+[Mon May 25 14:00:12 2020] INF: [bufferObject.cpp (19)] Buffer object 12 (Indices) destruído
+[Mon May 25 14:00:12 2020] INF: [bufferObject.cpp (19)] Buffer object 15 (Coord. de textura (0)) destruído
+[Mon May 25 14:00:12 2020] INF: [fbo.cpp (44)] Framebuffer object 1 destruído
+[Mon May 25 14:00:12 2020] INF: [bindableTexture.cpp (48)] Textura con id 1 destruída
+[Mon May 25 14:00:12 2020] INF: [bufferObject.cpp (19)] Buffer object 21 (Material) destruído
+[Mon May 25 14:00:12 2020] INF: [bufferObject.cpp (19)] Buffer object 8 (Vertices) destruído
+[Mon May 25 14:00:12 2020] INF: [bufferObject.cpp (19)] Buffer object 9 (Normales) destruído
+[Mon May 25 14:00:12 2020] INF: [bufferObject.cpp (19)] Buffer object 11 (Indices) destruído
+[Mon May 25 14:00:12 2020] INF: [bufferObject.cpp (19)] Buffer object 10 (Coord. de textura (0)) destruído
+[Mon May 25 14:00:12 2020] INF: [bufferObject.cpp (19)] Buffer object 20 (Material) destruído
+[Mon May 25 14:00:12 2020] INF: [bufferObject.cpp (19)] Buffer object 6 (Vertices) destruído
+[Mon May 25 14:00:12 2020] INF: [bufferObject.cpp (19)] Buffer object 5 (Normales) destruído
+[Mon May 25 14:00:12 2020] INF: [bufferObject.cpp (19)] Buffer object 7 (Coord. de textura (0)) destruído
+[Mon May 25 14:00:12 2020] INF: [bufferObject.cpp (19)] Buffer object 18 (Material) destruído
+[Mon May 25 14:00:12 2020] INF: [bufferObject.cpp (19)] Buffer object 2 (Vertices) destruído
+[Mon May 25 14:00:12 2020] INF: [bufferObject.cpp (19)] Buffer object 3 (Normales) destruído
+[Mon May 25 14:00:12 2020] INF: [bufferObject.cpp (19)] Buffer object 1 (Indices) destruído
+[Mon May 25 14:00:12 2020] INF: [bufferObject.cpp (19)] Buffer object 4 (Coord. de textura (0)) destruído
+[Mon May 25 14:00:12 2020] INF: [bufferObject.cpp (19)] Buffer object 22 (Material) destruído
+[Mon May 25 14:00:12 2020] INF: [bufferObject.cpp (19)] Buffer object 19 (Material) destruído
+[Mon May 25 14:00:12 2020] INF: [bufferObject.cpp (19)] Buffer object 24 (Vertices) destruído
+[Mon May 25 14:00:12 2020] INF: [bufferObject.cpp (19)] Buffer object 25 (Normales) destruído
+[Mon May 25 14:00:12 2020] INF: [bufferObject.cpp (19)] Buffer object 23 (Indices) destruído
+[Mon May 25 14:00:12 2020] INF: [bufferObject.cpp (19)] Buffer object 27 (Lights) destruído
+[Mon May 25 14:00:12 2020] INF: [bufferObject.cpp (19)] Buffer object 28 (GLMatrices) destruído
+[Mon May 25 14:00:12 2020] INF: [bufferObject.cpp (19)] Buffer object 26 (GLMatrices) destruído
+[Mon May 25 14:00:12 2020] INF: [app.cpp (93)] App destroyed
+[Mon May 25 14:00:12 2020] INF: [log.cpp (46)] Closing Log
+
+[Mon May 25 14:33:55 2020] INF: [app.cpp (86)] App created
+[Mon May 25 14:33:55 2020] INF: [app.cpp (106)] Iniciando aplicación D:\PG\practPG10\bin\p10d.exe
+[Mon May 25 14:33:56 2020] INF: [sdlAdapter.cpp (489)] Window Properties: DOUBLE_BUFFER 
+[Mon May 25 14:33:56 2020] INF: [sdlAdapter.cpp (491)] SDL Window flags: SDL_WINDOW_OPENGL SDL_WINDOW_SHOWN SDL_WINDOW_RESIZABLE SDL_WINDOW_INPUT_FOCUS SDL_WINDOW_MOUSE_FOCUS 
+[Mon May 25 14:33:56 2020] INF: [sdlAdapter.cpp (494)] SDL Context flags: SDL_GL_CONTEXT_DEBUG_FLAG 
+[Mon May 25 14:33:56 2020] INF: [window.cpp (128)] Ventana creada. Soporte de OpenGL: GL_VERSION_4_5
+[Mon May 25 14:33:56 2020] INF: [windowBuilder.cpp (75)] Información del driver:
+GL_VENDOR: NVIDIA Corporation
+GL_RENDERER: GeForce GTX 1050/PCIe/SSE2
+GL_VERSION: 4.5.0 NVIDIA 398.36
+GL_SHADING_LANGUAGE_VERSION: 4.50 NVIDIA
+Tamaño del framebuffer por defecto:
+   bits de color: (8, 8, 8, 0), depth: 24, stencil: 0
+
+[Mon May 25 14:33:56 2020] INF: [app.cpp (161)] Library versions
+PGUPV 64 bits Debug Revision: 2040
+Boost: 1_69
+SDL: Runtime: 2.0.8 Compiled: 2.0.8
+Assimp: 4.1.0
+GLEW: 2.2.0
+Par Shapes: http://github.prideout.net/shapes @ August 2016
+GLI: 0.8.3
+FreeImage: 3.18.0
+ImGui: 1.70
+[Mon May 25 14:33:56 2020] INF: [app.cpp (418)] No se han encontrado joysticks en el sistema
+[Mon May 25 14:33:56 2020] INF: [bufferObject.cpp (41)] Buffer object 1 ha reservado 3320 bytes
+[Mon May 25 14:33:56 2020] INF: [bufferObject.cpp (41)] Buffer object 2 ha reservado 5412 bytes
+[Mon May 25 14:33:56 2020] INF: [bufferObject.cpp (41)] Buffer object 3 ha reservado 5412 bytes
+[Mon May 25 14:33:56 2020] INF: [bufferObject.cpp (41)] Buffer object 4 ha reservado 3608 bytes
+[Mon May 25 14:33:56 2020] INF: [bufferObject.cpp (41)] Buffer object 5 ha reservado 288 bytes
+[Mon May 25 14:33:56 2020] INF: [bufferObject.cpp (41)] Buffer object 6 ha reservado 288 bytes
+[Mon May 25 14:33:56 2020] INF: [bufferObject.cpp (41)] Buffer object 7 ha reservado 192 bytes
+[Mon May 25 14:33:56 2020] INF: [bufferObject.cpp (41)] Buffer object 8 ha reservado 4800 bytes
+[Mon May 25 14:33:56 2020] INF: [bufferObject.cpp (41)] Buffer object 9 ha reservado 4800 bytes
+[Mon May 25 14:33:56 2020] INF: [bufferObject.cpp (41)] Buffer object 10 ha reservado 3200 bytes
+[Mon May 25 14:33:56 2020] INF: [bufferObject.cpp (41)] Buffer object 11 ha reservado 3116 bytes
+[Mon May 25 14:33:56 2020] INF: [fbo.cpp (21)] Framebuffer object 1 creado
+[Mon May 25 14:33:56 2020] INF: [bufferObject.cpp (41)] Buffer object 12 ha reservado 260 bytes
+[Mon May 25 14:33:56 2020] INF: [bufferObject.cpp (41)] Buffer object 13 ha reservado 432 bytes
+[Mon May 25 14:33:56 2020] INF: [bufferObject.cpp (41)] Buffer object 14 ha reservado 432 bytes
+[Mon May 25 14:33:56 2020] INF: [bufferObject.cpp (41)] Buffer object 15 ha reservado 288 bytes
+[Mon May 25 14:33:56 2020] INF: [bufferObject.cpp (41)] Buffer object 16 ha reservado 48 bytes
+[Mon May 25 14:33:56 2020] INF: [bufferObject.cpp (41)] Buffer object 17 ha reservado 32 bytes
+[Mon May 25 14:33:56 2020] INF: [bindableTexture.cpp (42)] Textura de tipo GL_TEXTURE_2D creada con id 1
+[Mon May 25 14:33:56 2020] INF: [app.cpp (665)] Unidad de textura reservada para PGUPV: 191
+[Mon May 25 14:33:56 2020] INF: [bufferObject.cpp (41)] Buffer object 18 ha reservado 80 bytes
+[Mon May 25 14:33:56 2020] INF: [uboMaterial.cpp (54)] UBO Material creado
+[Mon May 25 14:33:56 2020] INF: [bufferObject.cpp (41)] Buffer object 19 ha reservado 80 bytes
+[Mon May 25 14:33:56 2020] INF: [uboMaterial.cpp (54)] UBO Material creado
+[Mon May 25 14:33:56 2020] INF: [bufferObject.cpp (41)] Buffer object 20 ha reservado 80 bytes
+[Mon May 25 14:33:56 2020] INF: [uboMaterial.cpp (54)] UBO Material creado
+[Mon May 25 14:33:56 2020] INF: [bufferObject.cpp (41)] Buffer object 21 ha reservado 80 bytes
+[Mon May 25 14:33:56 2020] INF: [uboMaterial.cpp (54)] UBO Material creado
+[Mon May 25 14:33:56 2020] INF: [assimpWrapper.cpp (93)] El modelo ../recursos/modelos/teapot.3ds no tiene animaciones
+[Mon May 25 14:33:56 2020] INF: [bufferObject.cpp (41)] Buffer object 22 ha reservado 80 bytes
+[Mon May 25 14:33:56 2020] INF: [uboMaterial.cpp (54)] UBO Material creado
+[Mon May 25 14:33:56 2020] INF: [assimpWrapper.cpp (414)] Material: %%%DEFAULT
+Amb: (0, 0, 0) Dif: (0.3, 0.3, 0.3) Esp: (0, 0, 0) Emi: (0, 0, 0) 
+Shading model *ignored*: Simple Gouraud shading
+Textures:
+ TextureCount: 00000000000000000000000000000000
+[Mon May 25 14:33:56 2020] INF: [assimpWrapper.cpp (193)] Mesh #0 (0). Tris: 3080. Vtx: 1597 with normals WITHOUT tangents
+[Mon May 25 14:33:56 2020] INF: [bufferObject.cpp (41)] Buffer object 23 ha reservado 36960 bytes
+[Mon May 25 14:33:56 2020] INF: [bufferObject.cpp (41)] Buffer object 24 ha reservado 19164 bytes
+[Mon May 25 14:33:56 2020] INF: [bufferObject.cpp (41)] Buffer object 25 ha reservado 19164 bytes
+[Mon May 25 14:33:56 2020] INF: [fileLoader.cpp (293)] Grafo de escena:
+Transform (<3DSDummyRoot>) BB: [-1.99513 -> 2.21556, 1.0091e-09 -> 2.06155, -1.34067 -> 1.27718] 1 hijos 
+Mat: [
+1 0 0 0
+0 0 1 0
+0 -1 0 0
+0 0 0 1]
+  Transform (3DSMesh_0) BB: [-1.99513 -> 2.21556, -1.27718 -> 1.34067, 1.0091e-09 -> 2.06155] 1 hijos 
+  Mat: [
+  1 0 0 0
+  0 1 0 0
+  0 0 1 0
+  0 0 0 1]
+    Geode (3DSMesh_0) BB: [-1.99513 -> 2.21556, -1.27718 -> 1.34067, 1.0091e-09 -> 2.06155] 1 mallas { [0] 1597 vert 1 draws}
+
+[Mon May 25 14:33:56 2020] INF: [bufferObject.cpp (41)] Buffer object 26 ha reservado 368 bytes
+[Mon May 25 14:33:56 2020] INF: [glMatrices.cpp (160)] UBO GLMatrices creado
+[Mon May 25 14:33:56 2020] INF: [bufferObject.cpp (41)] Buffer object 27 ha reservado 576 bytes
+[Mon May 25 14:33:56 2020] INF: [uboLightSources.cpp (86)] UBO LightSources creado
+[Mon May 25 14:33:56 2020] INF: [shader.cpp (169)] Compilando ../p10/p10.vert
+[Mon May 25 14:33:56 2020] INF: [shader.cpp (169)] Compilando ../p10/p10.frag
+[Mon May 25 14:33:56 2020] INF: [bufferObject.cpp (41)] Buffer object 28 ha reservado 368 bytes
+[Mon May 25 14:33:56 2020] INF: [glMatrices.cpp (160)] UBO GLMatrices creado
+[Mon May 25 14:33:56 2020] INF: [shader.cpp (169)] Compilando ../p10/shadowMap.vert
+[Mon May 25 14:33:56 2020] INF: [shader.cpp (169)] Compilando ../p10/shadowMap.frag
+[Mon May 25 14:33:56 2020] INF: [shader.cpp (169)] Compilando ../p10/zbuffershow.vert
+[Mon May 25 14:33:56 2020] INF: [shader.cpp (169)] Compilando ../p10/zbuffershow.frag
+[Mon May 25 14:33:56 2020] INF: [stockPrograms.h (36)] StockProgram creado
+[Mon May 25 14:33:56 2020] INF: [shader.cpp (169)] Compilando 
+[Mon May 25 14:33:56 2020] INF: [shader.cpp (169)] Compilando 
+[Mon May 25 14:34:08 2020] INF: [app.cpp (599)] Aplicación terminada normalmente
+[Mon May 25 14:34:08 2020] INF: [bufferObject.cpp (19)] Buffer object 16 (Vertices) destruído
+[Mon May 25 14:34:08 2020] INF: [bufferObject.cpp (19)] Buffer object 17 (Coord. de textura (0)) destruído
+[Mon May 25 14:34:08 2020] INF: [bufferObject.cpp (19)] Buffer object 13 (Vertices) destruído
+[Mon May 25 14:34:08 2020] INF: [bufferObject.cpp (19)] Buffer object 14 (Normales) destruído
+[Mon May 25 14:34:08 2020] INF: [bufferObject.cpp (19)] Buffer object 12 (Indices) destruído
+[Mon May 25 14:34:08 2020] INF: [bufferObject.cpp (19)] Buffer object 15 (Coord. de textura (0)) destruído
+[Mon May 25 14:34:08 2020] INF: [fbo.cpp (44)] Framebuffer object 1 destruído
+[Mon May 25 14:34:08 2020] INF: [bindableTexture.cpp (48)] Textura con id 1 destruída
+[Mon May 25 14:34:08 2020] INF: [bufferObject.cpp (19)] Buffer object 21 (Material) destruído
+[Mon May 25 14:34:08 2020] INF: [bufferObject.cpp (19)] Buffer object 8 (Vertices) destruído
+[Mon May 25 14:34:08 2020] INF: [bufferObject.cpp (19)] Buffer object 9 (Normales) destruído
+[Mon May 25 14:34:08 2020] INF: [bufferObject.cpp (19)] Buffer object 11 (Indices) destruído
+[Mon May 25 14:34:08 2020] INF: [bufferObject.cpp (19)] Buffer object 10 (Coord. de textura (0)) destruído
+[Mon May 25 14:34:08 2020] INF: [bufferObject.cpp (19)] Buffer object 20 (Material) destruído
+[Mon May 25 14:34:08 2020] INF: [bufferObject.cpp (19)] Buffer object 6 (Vertices) destruído
+[Mon May 25 14:34:08 2020] INF: [bufferObject.cpp (19)] Buffer object 5 (Normales) destruído
+[Mon May 25 14:34:08 2020] INF: [bufferObject.cpp (19)] Buffer object 7 (Coord. de textura (0)) destruído
+[Mon May 25 14:34:08 2020] INF: [bufferObject.cpp (19)] Buffer object 18 (Material) destruído
+[Mon May 25 14:34:08 2020] INF: [bufferObject.cpp (19)] Buffer object 2 (Vertices) destruído
+[Mon May 25 14:34:08 2020] INF: [bufferObject.cpp (19)] Buffer object 3 (Normales) destruído
+[Mon May 25 14:34:08 2020] INF: [bufferObject.cpp (19)] Buffer object 1 (Indices) destruído
+[Mon May 25 14:34:08 2020] INF: [bufferObject.cpp (19)] Buffer object 4 (Coord. de textura (0)) destruído
+[Mon May 25 14:34:08 2020] INF: [bufferObject.cpp (19)] Buffer object 22 (Material) destruído
+[Mon May 25 14:34:08 2020] INF: [bufferObject.cpp (19)] Buffer object 19 (Material) destruído
+[Mon May 25 14:34:08 2020] INF: [bufferObject.cpp (19)] Buffer object 24 (Vertices) destruído
+[Mon May 25 14:34:08 2020] INF: [bufferObject.cpp (19)] Buffer object 25 (Normales) destruído
+[Mon May 25 14:34:08 2020] INF: [bufferObject.cpp (19)] Buffer object 23 (Indices) destruído
+[Mon May 25 14:34:08 2020] INF: [bufferObject.cpp (19)] Buffer object 27 (Lights) destruído
+[Mon May 25 14:34:08 2020] INF: [bufferObject.cpp (19)] Buffer object 28 (GLMatrices) destruído
+[Mon May 25 14:34:08 2020] INF: [bufferObject.cpp (19)] Buffer object 26 (GLMatrices) destruído
+[Mon May 25 14:34:08 2020] INF: [app.cpp (93)] App destroyed
+[Mon May 25 14:34:08 2020] INF: [log.cpp (46)] Closing Log
+
+[Mon May 25 14:34:28 2020] INF: [app.cpp (86)] App created
+[Mon May 25 14:34:28 2020] INF: [app.cpp (106)] Iniciando aplicación D:\PG\practPG10\bin\p10d.exe
+[Mon May 25 14:34:30 2020] INF: [sdlAdapter.cpp (489)] Window Properties: DOUBLE_BUFFER 
+[Mon May 25 14:34:30 2020] INF: [sdlAdapter.cpp (491)] SDL Window flags: SDL_WINDOW_OPENGL SDL_WINDOW_SHOWN SDL_WINDOW_RESIZABLE SDL_WINDOW_INPUT_FOCUS SDL_WINDOW_MOUSE_FOCUS 
+[Mon May 25 14:34:30 2020] INF: [sdlAdapter.cpp (494)] SDL Context flags: SDL_GL_CONTEXT_DEBUG_FLAG 
+[Mon May 25 14:34:30 2020] INF: [window.cpp (128)] Ventana creada. Soporte de OpenGL: GL_VERSION_4_5
+[Mon May 25 14:34:30 2020] INF: [windowBuilder.cpp (75)] Información del driver:
+GL_VENDOR: NVIDIA Corporation
+GL_RENDERER: GeForce GTX 1050/PCIe/SSE2
+GL_VERSION: 4.5.0 NVIDIA 398.36
+GL_SHADING_LANGUAGE_VERSION: 4.50 NVIDIA
+Tamaño del framebuffer por defecto:
+   bits de color: (8, 8, 8, 0), depth: 24, stencil: 0
+
+[Mon May 25 14:34:30 2020] INF: [app.cpp (161)] Library versions
+PGUPV 64 bits Debug Revision: 2040
+Boost: 1_69
+SDL: Runtime: 2.0.8 Compiled: 2.0.8
+Assimp: 4.1.0
+GLEW: 2.2.0
+Par Shapes: http://github.prideout.net/shapes @ August 2016
+GLI: 0.8.3
+FreeImage: 3.18.0
+ImGui: 1.70
+[Mon May 25 14:34:30 2020] INF: [app.cpp (418)] No se han encontrado joysticks en el sistema
+[Mon May 25 14:34:30 2020] INF: [bufferObject.cpp (41)] Buffer object 1 ha reservado 3320 bytes
+[Mon May 25 14:34:30 2020] INF: [bufferObject.cpp (41)] Buffer object 2 ha reservado 5412 bytes
+[Mon May 25 14:34:30 2020] INF: [bufferObject.cpp (41)] Buffer object 3 ha reservado 5412 bytes
+[Mon May 25 14:34:30 2020] INF: [bufferObject.cpp (41)] Buffer object 4 ha reservado 3608 bytes
+[Mon May 25 14:34:30 2020] INF: [bufferObject.cpp (41)] Buffer object 5 ha reservado 288 bytes
+[Mon May 25 14:34:30 2020] INF: [bufferObject.cpp (41)] Buffer object 6 ha reservado 288 bytes
+[Mon May 25 14:34:30 2020] INF: [bufferObject.cpp (41)] Buffer object 7 ha reservado 192 bytes
+[Mon May 25 14:34:30 2020] INF: [bufferObject.cpp (41)] Buffer object 8 ha reservado 4800 bytes
+[Mon May 25 14:34:30 2020] INF: [bufferObject.cpp (41)] Buffer object 9 ha reservado 4800 bytes
+[Mon May 25 14:34:30 2020] INF: [bufferObject.cpp (41)] Buffer object 10 ha reservado 3200 bytes
+[Mon May 25 14:34:30 2020] INF: [bufferObject.cpp (41)] Buffer object 11 ha reservado 3116 bytes
+[Mon May 25 14:34:30 2020] INF: [fbo.cpp (21)] Framebuffer object 1 creado
+[Mon May 25 14:34:30 2020] INF: [bufferObject.cpp (41)] Buffer object 12 ha reservado 260 bytes
+[Mon May 25 14:34:30 2020] INF: [bufferObject.cpp (41)] Buffer object 13 ha reservado 432 bytes
+[Mon May 25 14:34:30 2020] INF: [bufferObject.cpp (41)] Buffer object 14 ha reservado 432 bytes
+[Mon May 25 14:34:30 2020] INF: [bufferObject.cpp (41)] Buffer object 15 ha reservado 288 bytes
+[Mon May 25 14:34:30 2020] INF: [bufferObject.cpp (41)] Buffer object 16 ha reservado 48 bytes
+[Mon May 25 14:34:30 2020] INF: [bufferObject.cpp (41)] Buffer object 17 ha reservado 32 bytes
+[Mon May 25 14:34:30 2020] INF: [bindableTexture.cpp (42)] Textura de tipo GL_TEXTURE_2D creada con id 1
+[Mon May 25 14:34:30 2020] INF: [app.cpp (665)] Unidad de textura reservada para PGUPV: 191
+[Mon May 25 14:34:30 2020] INF: [bufferObject.cpp (41)] Buffer object 18 ha reservado 80 bytes
+[Mon May 25 14:34:30 2020] INF: [uboMaterial.cpp (54)] UBO Material creado
+[Mon May 25 14:34:30 2020] INF: [bufferObject.cpp (41)] Buffer object 19 ha reservado 80 bytes
+[Mon May 25 14:34:30 2020] INF: [uboMaterial.cpp (54)] UBO Material creado
+[Mon May 25 14:34:30 2020] INF: [bufferObject.cpp (41)] Buffer object 20 ha reservado 80 bytes
+[Mon May 25 14:34:30 2020] INF: [uboMaterial.cpp (54)] UBO Material creado
+[Mon May 25 14:34:30 2020] INF: [bufferObject.cpp (41)] Buffer object 21 ha reservado 80 bytes
+[Mon May 25 14:34:30 2020] INF: [uboMaterial.cpp (54)] UBO Material creado
+[Mon May 25 14:34:30 2020] INF: [assimpWrapper.cpp (93)] El modelo ../recursos/modelos/teapot.3ds no tiene animaciones
+[Mon May 25 14:34:30 2020] INF: [bufferObject.cpp (41)] Buffer object 22 ha reservado 80 bytes
+[Mon May 25 14:34:30 2020] INF: [uboMaterial.cpp (54)] UBO Material creado
+[Mon May 25 14:34:30 2020] INF: [assimpWrapper.cpp (414)] Material: %%%DEFAULT
+Amb: (0, 0, 0) Dif: (0.3, 0.3, 0.3) Esp: (0, 0, 0) Emi: (0, 0, 0) 
+Shading model *ignored*: Simple Gouraud shading
+Textures:
+ TextureCount: 00000000000000000000000000000000
+[Mon May 25 14:34:30 2020] INF: [assimpWrapper.cpp (193)] Mesh #0 (0). Tris: 3080. Vtx: 1597 with normals WITHOUT tangents
+[Mon May 25 14:34:30 2020] INF: [bufferObject.cpp (41)] Buffer object 23 ha reservado 36960 bytes
+[Mon May 25 14:34:30 2020] INF: [bufferObject.cpp (41)] Buffer object 24 ha reservado 19164 bytes
+[Mon May 25 14:34:30 2020] INF: [bufferObject.cpp (41)] Buffer object 25 ha reservado 19164 bytes
+[Mon May 25 14:34:30 2020] INF: [fileLoader.cpp (293)] Grafo de escena:
+Transform (<3DSDummyRoot>) BB: [-1.99513 -> 2.21556, 1.0091e-09 -> 2.06155, -1.34067 -> 1.27718] 1 hijos 
+Mat: [
+1 0 0 0
+0 0 1 0
+0 -1 0 0
+0 0 0 1]
+  Transform (3DSMesh_0) BB: [-1.99513 -> 2.21556, -1.27718 -> 1.34067, 1.0091e-09 -> 2.06155] 1 hijos 
+  Mat: [
+  1 0 0 0
+  0 1 0 0
+  0 0 1 0
+  0 0 0 1]
+    Geode (3DSMesh_0) BB: [-1.99513 -> 2.21556, -1.27718 -> 1.34067, 1.0091e-09 -> 2.06155] 1 mallas { [0] 1597 vert 1 draws}
+
+[Mon May 25 14:34:30 2020] INF: [bufferObject.cpp (41)] Buffer object 26 ha reservado 368 bytes
+[Mon May 25 14:34:30 2020] INF: [glMatrices.cpp (160)] UBO GLMatrices creado
+[Mon May 25 14:34:30 2020] INF: [bufferObject.cpp (41)] Buffer object 27 ha reservado 576 bytes
+[Mon May 25 14:34:30 2020] INF: [uboLightSources.cpp (86)] UBO LightSources creado
+[Mon May 25 14:34:30 2020] INF: [shader.cpp (169)] Compilando ../p10/p10.vert
+[Mon May 25 14:34:30 2020] INF: [shader.cpp (169)] Compilando ../p10/p10.frag
+[Mon May 25 14:34:30 2020] INF: [bufferObject.cpp (41)] Buffer object 28 ha reservado 368 bytes
+[Mon May 25 14:34:30 2020] INF: [glMatrices.cpp (160)] UBO GLMatrices creado
+[Mon May 25 14:34:30 2020] INF: [shader.cpp (169)] Compilando ../p10/shadowMap.vert
+[Mon May 25 14:34:30 2020] INF: [shader.cpp (169)] Compilando ../p10/shadowMap.frag
+[Mon May 25 14:34:30 2020] INF: [shader.cpp (169)] Compilando ../p10/zbuffershow.vert
+[Mon May 25 14:34:30 2020] INF: [shader.cpp (169)] Compilando ../p10/zbuffershow.frag
+[Mon May 25 14:34:30 2020] INF: [stockPrograms.h (36)] StockProgram creado
+[Mon May 25 14:34:30 2020] INF: [shader.cpp (169)] Compilando 
+[Mon May 25 14:34:30 2020] INF: [shader.cpp (169)] Compilando 
+[Mon May 25 14:34:39 2020] WAR: [keyboard.cpp (78)] Se ha soltado una tecla que no se había pulsado
+[Mon May 25 14:34:43 2020] INF: [app.cpp (599)] Aplicación terminada normalmente
+[Mon May 25 14:34:43 2020] INF: [bufferObject.cpp (19)] Buffer object 16 (Vertices) destruído
+[Mon May 25 14:34:43 2020] INF: [bufferObject.cpp (19)] Buffer object 17 (Coord. de textura (0)) destruído
+[Mon May 25 14:34:43 2020] INF: [bufferObject.cpp (19)] Buffer object 13 (Vertices) destruído
+[Mon May 25 14:34:43 2020] INF: [bufferObject.cpp (19)] Buffer object 14 (Normales) destruído
+[Mon May 25 14:34:43 2020] INF: [bufferObject.cpp (19)] Buffer object 12 (Indices) destruído
+[Mon May 25 14:34:43 2020] INF: [bufferObject.cpp (19)] Buffer object 15 (Coord. de textura (0)) destruído
+[Mon May 25 14:34:43 2020] INF: [fbo.cpp (44)] Framebuffer object 1 destruído
+[Mon May 25 14:34:43 2020] INF: [bindableTexture.cpp (48)] Textura con id 1 destruída
+[Mon May 25 14:34:43 2020] INF: [bufferObject.cpp (19)] Buffer object 21 (Material) destruído
+[Mon May 25 14:34:43 2020] INF: [bufferObject.cpp (19)] Buffer object 8 (Vertices) destruído
+[Mon May 25 14:34:43 2020] INF: [bufferObject.cpp (19)] Buffer object 9 (Normales) destruído
+[Mon May 25 14:34:43 2020] INF: [bufferObject.cpp (19)] Buffer object 11 (Indices) destruído
+[Mon May 25 14:34:43 2020] INF: [bufferObject.cpp (19)] Buffer object 10 (Coord. de textura (0)) destruído
+[Mon May 25 14:34:43 2020] INF: [bufferObject.cpp (19)] Buffer object 20 (Material) destruído
+[Mon May 25 14:34:43 2020] INF: [bufferObject.cpp (19)] Buffer object 6 (Vertices) destruído
+[Mon May 25 14:34:43 2020] INF: [bufferObject.cpp (19)] Buffer object 5 (Normales) destruído
+[Mon May 25 14:34:43 2020] INF: [bufferObject.cpp (19)] Buffer object 7 (Coord. de textura (0)) destruído
+[Mon May 25 14:34:43 2020] INF: [bufferObject.cpp (19)] Buffer object 18 (Material) destruído
+[Mon May 25 14:34:43 2020] INF: [bufferObject.cpp (19)] Buffer object 2 (Vertices) destruído
+[Mon May 25 14:34:43 2020] INF: [bufferObject.cpp (19)] Buffer object 3 (Normales) destruído
+[Mon May 25 14:34:43 2020] INF: [bufferObject.cpp (19)] Buffer object 1 (Indices) destruído
+[Mon May 25 14:34:43 2020] INF: [bufferObject.cpp (19)] Buffer object 4 (Coord. de textura (0)) destruído
+[Mon May 25 14:34:43 2020] INF: [bufferObject.cpp (19)] Buffer object 22 (Material) destruído
+[Mon May 25 14:34:43 2020] INF: [bufferObject.cpp (19)] Buffer object 19 (Material) destruído
+[Mon May 25 14:34:43 2020] INF: [bufferObject.cpp (19)] Buffer object 24 (Vertices) destruído
+[Mon May 25 14:34:43 2020] INF: [bufferObject.cpp (19)] Buffer object 25 (Normales) destruído
+[Mon May 25 14:34:43 2020] INF: [bufferObject.cpp (19)] Buffer object 23 (Indices) destruído
+[Mon May 25 14:34:43 2020] INF: [bufferObject.cpp (19)] Buffer object 27 (Lights) destruído
+[Mon May 25 14:34:43 2020] INF: [bufferObject.cpp (19)] Buffer object 28 (GLMatrices) destruído
+[Mon May 25 14:34:43 2020] INF: [bufferObject.cpp (19)] Buffer object 26 (GLMatrices) destruído
+[Mon May 25 14:34:43 2020] INF: [app.cpp (93)] App destroyed
+[Mon May 25 14:34:43 2020] INF: [log.cpp (46)] Closing Log
+
+[Mon May 25 14:36:24 2020] INF: [app.cpp (86)] App created
+[Mon May 25 14:36:24 2020] INF: [app.cpp (106)] Iniciando aplicación D:\PG\practPG10\bin\p10d.exe
+[Mon May 25 14:36:25 2020] INF: [sdlAdapter.cpp (489)] Window Properties: DOUBLE_BUFFER 
+[Mon May 25 14:36:25 2020] INF: [sdlAdapter.cpp (491)] SDL Window flags: SDL_WINDOW_OPENGL SDL_WINDOW_SHOWN SDL_WINDOW_RESIZABLE SDL_WINDOW_INPUT_FOCUS 
+[Mon May 25 14:36:25 2020] INF: [sdlAdapter.cpp (494)] SDL Context flags: SDL_GL_CONTEXT_DEBUG_FLAG 
+[Mon May 25 14:36:25 2020] INF: [window.cpp (128)] Ventana creada. Soporte de OpenGL: GL_VERSION_4_5
+[Mon May 25 14:36:25 2020] INF: [windowBuilder.cpp (75)] Información del driver:
+GL_VENDOR: NVIDIA Corporation
+GL_RENDERER: GeForce GTX 1050/PCIe/SSE2
+GL_VERSION: 4.5.0 NVIDIA 398.36
+GL_SHADING_LANGUAGE_VERSION: 4.50 NVIDIA
+Tamaño del framebuffer por defecto:
+   bits de color: (8, 8, 8, 0), depth: 24, stencil: 0
+
+[Mon May 25 14:36:25 2020] INF: [app.cpp (161)] Library versions
+PGUPV 64 bits Debug Revision: 2040
+Boost: 1_69
+SDL: Runtime: 2.0.8 Compiled: 2.0.8
+Assimp: 4.1.0
+GLEW: 2.2.0
+Par Shapes: http://github.prideout.net/shapes @ August 2016
+GLI: 0.8.3
+FreeImage: 3.18.0
+ImGui: 1.70
+[Mon May 25 14:36:25 2020] INF: [app.cpp (418)] No se han encontrado joysticks en el sistema
+[Mon May 25 14:36:25 2020] INF: [bufferObject.cpp (41)] Buffer object 1 ha reservado 3320 bytes
+[Mon May 25 14:36:25 2020] INF: [bufferObject.cpp (41)] Buffer object 2 ha reservado 5412 bytes
+[Mon May 25 14:36:25 2020] INF: [bufferObject.cpp (41)] Buffer object 3 ha reservado 5412 bytes
+[Mon May 25 14:36:25 2020] INF: [bufferObject.cpp (41)] Buffer object 4 ha reservado 3608 bytes
+[Mon May 25 14:36:25 2020] INF: [bufferObject.cpp (41)] Buffer object 5 ha reservado 288 bytes
+[Mon May 25 14:36:25 2020] INF: [bufferObject.cpp (41)] Buffer object 6 ha reservado 288 bytes
+[Mon May 25 14:36:25 2020] INF: [bufferObject.cpp (41)] Buffer object 7 ha reservado 192 bytes
+[Mon May 25 14:36:25 2020] INF: [bufferObject.cpp (41)] Buffer object 8 ha reservado 4800 bytes
+[Mon May 25 14:36:25 2020] INF: [bufferObject.cpp (41)] Buffer object 9 ha reservado 4800 bytes
+[Mon May 25 14:36:25 2020] INF: [bufferObject.cpp (41)] Buffer object 10 ha reservado 3200 bytes
+[Mon May 25 14:36:25 2020] INF: [bufferObject.cpp (41)] Buffer object 11 ha reservado 3116 bytes
+[Mon May 25 14:36:25 2020] INF: [fbo.cpp (21)] Framebuffer object 1 creado
+[Mon May 25 14:36:25 2020] INF: [bufferObject.cpp (41)] Buffer object 12 ha reservado 260 bytes
+[Mon May 25 14:36:25 2020] INF: [bufferObject.cpp (41)] Buffer object 13 ha reservado 432 bytes
+[Mon May 25 14:36:25 2020] INF: [bufferObject.cpp (41)] Buffer object 14 ha reservado 432 bytes
+[Mon May 25 14:36:25 2020] INF: [bufferObject.cpp (41)] Buffer object 15 ha reservado 288 bytes
+[Mon May 25 14:36:25 2020] INF: [bufferObject.cpp (41)] Buffer object 16 ha reservado 48 bytes
+[Mon May 25 14:36:25 2020] INF: [bufferObject.cpp (41)] Buffer object 17 ha reservado 32 bytes
+[Mon May 25 14:36:25 2020] INF: [bindableTexture.cpp (42)] Textura de tipo GL_TEXTURE_2D creada con id 1
+[Mon May 25 14:36:25 2020] INF: [app.cpp (665)] Unidad de textura reservada para PGUPV: 191
+[Mon May 25 14:36:25 2020] INF: [bufferObject.cpp (41)] Buffer object 18 ha reservado 80 bytes
+[Mon May 25 14:36:25 2020] INF: [uboMaterial.cpp (54)] UBO Material creado
+[Mon May 25 14:36:25 2020] INF: [bufferObject.cpp (41)] Buffer object 19 ha reservado 80 bytes
+[Mon May 25 14:36:25 2020] INF: [uboMaterial.cpp (54)] UBO Material creado
+[Mon May 25 14:36:25 2020] INF: [bufferObject.cpp (41)] Buffer object 20 ha reservado 80 bytes
+[Mon May 25 14:36:25 2020] INF: [uboMaterial.cpp (54)] UBO Material creado
+[Mon May 25 14:36:25 2020] INF: [bufferObject.cpp (41)] Buffer object 21 ha reservado 80 bytes
+[Mon May 25 14:36:25 2020] INF: [uboMaterial.cpp (54)] UBO Material creado
+[Mon May 25 14:36:25 2020] INF: [assimpWrapper.cpp (93)] El modelo ../recursos/modelos/teapot.3ds no tiene animaciones
+[Mon May 25 14:36:25 2020] INF: [bufferObject.cpp (41)] Buffer object 22 ha reservado 80 bytes
+[Mon May 25 14:36:25 2020] INF: [uboMaterial.cpp (54)] UBO Material creado
+[Mon May 25 14:36:25 2020] INF: [assimpWrapper.cpp (414)] Material: %%%DEFAULT
+Amb: (0, 0, 0) Dif: (0.3, 0.3, 0.3) Esp: (0, 0, 0) Emi: (0, 0, 0) 
+Shading model *ignored*: Simple Gouraud shading
+Textures:
+ TextureCount: 00000000000000000000000000000000
+[Mon May 25 14:36:25 2020] INF: [assimpWrapper.cpp (193)] Mesh #0 (0). Tris: 3080. Vtx: 1597 with normals WITHOUT tangents
+[Mon May 25 14:36:25 2020] INF: [bufferObject.cpp (41)] Buffer object 23 ha reservado 36960 bytes
+[Mon May 25 14:36:25 2020] INF: [bufferObject.cpp (41)] Buffer object 24 ha reservado 19164 bytes
+[Mon May 25 14:36:25 2020] INF: [bufferObject.cpp (41)] Buffer object 25 ha reservado 19164 bytes
+[Mon May 25 14:36:25 2020] INF: [fileLoader.cpp (293)] Grafo de escena:
+Transform (<3DSDummyRoot>) BB: [-1.99513 -> 2.21556, 1.0091e-09 -> 2.06155, -1.34067 -> 1.27718] 1 hijos 
+Mat: [
+1 0 0 0
+0 0 1 0
+0 -1 0 0
+0 0 0 1]
+  Transform (3DSMesh_0) BB: [-1.99513 -> 2.21556, -1.27718 -> 1.34067, 1.0091e-09 -> 2.06155] 1 hijos 
+  Mat: [
+  1 0 0 0
+  0 1 0 0
+  0 0 1 0
+  0 0 0 1]
+    Geode (3DSMesh_0) BB: [-1.99513 -> 2.21556, -1.27718 -> 1.34067, 1.0091e-09 -> 2.06155] 1 mallas { [0] 1597 vert 1 draws}
+
+[Mon May 25 14:36:25 2020] INF: [bufferObject.cpp (41)] Buffer object 26 ha reservado 368 bytes
+[Mon May 25 14:36:25 2020] INF: [glMatrices.cpp (160)] UBO GLMatrices creado
+[Mon May 25 14:36:25 2020] INF: [bufferObject.cpp (41)] Buffer object 27 ha reservado 576 bytes
+[Mon May 25 14:36:25 2020] INF: [uboLightSources.cpp (86)] UBO LightSources creado
+[Mon May 25 14:36:25 2020] INF: [shader.cpp (169)] Compilando ../p10/p10.vert
+[Mon May 25 14:36:25 2020] INF: [shader.cpp (169)] Compilando ../p10/p10.frag
+[Mon May 25 14:36:25 2020] INF: [bufferObject.cpp (41)] Buffer object 28 ha reservado 368 bytes
+[Mon May 25 14:36:25 2020] INF: [glMatrices.cpp (160)] UBO GLMatrices creado
+[Mon May 25 14:36:25 2020] INF: [shader.cpp (169)] Compilando ../p10/shadowMap.vert
+[Mon May 25 14:36:25 2020] INF: [shader.cpp (169)] Compilando ../p10/shadowMap.frag
+[Mon May 25 14:36:25 2020] INF: [shader.cpp (169)] Compilando ../p10/zbuffershow.vert
+[Mon May 25 14:36:25 2020] INF: [shader.cpp (169)] Compilando ../p10/zbuffershow.frag
+[Mon May 25 14:36:25 2020] INF: [stockPrograms.h (36)] StockProgram creado
+[Mon May 25 14:36:25 2020] INF: [shader.cpp (169)] Compilando 
+[Mon May 25 14:36:25 2020] INF: [shader.cpp (169)] Compilando 
+[Mon May 25 14:36:32 2020] WAR: [keyboard.cpp (78)] Se ha soltado una tecla que no se había pulsado
+[Mon May 25 14:36:39 2020] INF: [bindableTexture.cpp (42)] Textura de tipo GL_TEXTURE_2D creada con id 3
+[Mon May 25 14:36:39 2020] INF: [bindableTexture.cpp (48)] Textura con id 1 destruída
+[Mon May 25 14:36:40 2020] INF: [bindableTexture.cpp (42)] Textura de tipo GL_TEXTURE_2D creada con id 1
+[Mon May 25 14:36:40 2020] INF: [bindableTexture.cpp (48)] Textura con id 3 destruída
+[Mon May 25 14:36:41 2020] INF: [bindableTexture.cpp (42)] Textura de tipo GL_TEXTURE_2D creada con id 3
+[Mon May 25 14:36:41 2020] INF: [bindableTexture.cpp (48)] Textura con id 1 destruída
+[Mon May 25 14:36:43 2020] INF: [bindableTexture.cpp (42)] Textura de tipo GL_TEXTURE_2D creada con id 1
+[Mon May 25 14:36:43 2020] INF: [bindableTexture.cpp (48)] Textura con id 3 destruída
+[Mon May 25 14:36:50 2020] INF: [app.cpp (599)] Aplicación terminada normalmente
+[Mon May 25 14:36:50 2020] INF: [bufferObject.cpp (19)] Buffer object 16 (Vertices) destruído
+[Mon May 25 14:36:50 2020] INF: [bufferObject.cpp (19)] Buffer object 17 (Coord. de textura (0)) destruído
+[Mon May 25 14:36:50 2020] INF: [bufferObject.cpp (19)] Buffer object 13 (Vertices) destruído
+[Mon May 25 14:36:50 2020] INF: [bufferObject.cpp (19)] Buffer object 14 (Normales) destruído
+[Mon May 25 14:36:50 2020] INF: [bufferObject.cpp (19)] Buffer object 12 (Indices) destruído
+[Mon May 25 14:36:50 2020] INF: [bufferObject.cpp (19)] Buffer object 15 (Coord. de textura (0)) destruído
+[Mon May 25 14:36:50 2020] INF: [fbo.cpp (44)] Framebuffer object 1 destruído
+[Mon May 25 14:36:50 2020] INF: [bindableTexture.cpp (48)] Textura con id 1 destruída
+[Mon May 25 14:36:50 2020] INF: [bufferObject.cpp (19)] Buffer object 21 (Material) destruído
+[Mon May 25 14:36:50 2020] INF: [bufferObject.cpp (19)] Buffer object 8 (Vertices) destruído
+[Mon May 25 14:36:50 2020] INF: [bufferObject.cpp (19)] Buffer object 9 (Normales) destruído
+[Mon May 25 14:36:50 2020] INF: [bufferObject.cpp (19)] Buffer object 11 (Indices) destruído
+[Mon May 25 14:36:50 2020] INF: [bufferObject.cpp (19)] Buffer object 10 (Coord. de textura (0)) destruído
+[Mon May 25 14:36:50 2020] INF: [bufferObject.cpp (19)] Buffer object 20 (Material) destruído
+[Mon May 25 14:36:50 2020] INF: [bufferObject.cpp (19)] Buffer object 6 (Vertices) destruído
+[Mon May 25 14:36:50 2020] INF: [bufferObject.cpp (19)] Buffer object 5 (Normales) destruído
+[Mon May 25 14:36:50 2020] INF: [bufferObject.cpp (19)] Buffer object 7 (Coord. de textura (0)) destruído
+[Mon May 25 14:36:50 2020] INF: [bufferObject.cpp (19)] Buffer object 18 (Material) destruído
+[Mon May 25 14:36:50 2020] INF: [bufferObject.cpp (19)] Buffer object 2 (Vertices) destruído
+[Mon May 25 14:36:50 2020] INF: [bufferObject.cpp (19)] Buffer object 3 (Normales) destruído
+[Mon May 25 14:36:50 2020] INF: [bufferObject.cpp (19)] Buffer object 1 (Indices) destruído
+[Mon May 25 14:36:50 2020] INF: [bufferObject.cpp (19)] Buffer object 4 (Coord. de textura (0)) destruído
+[Mon May 25 14:36:50 2020] INF: [bufferObject.cpp (19)] Buffer object 22 (Material) destruído
+[Mon May 25 14:36:50 2020] INF: [bufferObject.cpp (19)] Buffer object 19 (Material) destruído
+[Mon May 25 14:36:50 2020] INF: [bufferObject.cpp (19)] Buffer object 24 (Vertices) destruído
+[Mon May 25 14:36:50 2020] INF: [bufferObject.cpp (19)] Buffer object 25 (Normales) destruído
+[Mon May 25 14:36:50 2020] INF: [bufferObject.cpp (19)] Buffer object 23 (Indices) destruído
+[Mon May 25 14:36:50 2020] INF: [bufferObject.cpp (19)] Buffer object 27 (Lights) destruído
+[Mon May 25 14:36:50 2020] INF: [bufferObject.cpp (19)] Buffer object 28 (GLMatrices) destruído
+[Mon May 25 14:36:50 2020] INF: [bufferObject.cpp (19)] Buffer object 26 (GLMatrices) destruído
+[Mon May 25 14:36:50 2020] INF: [app.cpp (93)] App destroyed
+[Mon May 25 14:36:50 2020] INF: [log.cpp (46)] Closing Log
+
+[Mon May 25 21:42:40 2020] INF: [app.cpp (86)] App created
+[Mon May 25 21:42:40 2020] INF: [app.cpp (106)] Iniciando aplicación D:\PG\practPG10\bin\p10d.exe
+[Mon May 25 21:42:41 2020] INF: [sdlAdapter.cpp (489)] Window Properties: DOUBLE_BUFFER 
+[Mon May 25 21:42:41 2020] INF: [sdlAdapter.cpp (491)] SDL Window flags: SDL_WINDOW_OPENGL SDL_WINDOW_SHOWN SDL_WINDOW_RESIZABLE SDL_WINDOW_INPUT_FOCUS SDL_WINDOW_MOUSE_FOCUS 
+[Mon May 25 21:42:41 2020] INF: [sdlAdapter.cpp (494)] SDL Context flags: SDL_GL_CONTEXT_DEBUG_FLAG 
+[Mon May 25 21:42:41 2020] INF: [window.cpp (128)] Ventana creada. Soporte de OpenGL: GL_VERSION_4_5
+[Mon May 25 21:42:41 2020] INF: [windowBuilder.cpp (75)] Información del driver:
+GL_VENDOR: NVIDIA Corporation
+GL_RENDERER: GeForce GTX 1050/PCIe/SSE2
+GL_VERSION: 4.5.0 NVIDIA 398.36
+GL_SHADING_LANGUAGE_VERSION: 4.50 NVIDIA
+Tamaño del framebuffer por defecto:
+   bits de color: (8, 8, 8, 0), depth: 24, stencil: 0
+
+[Mon May 25 21:42:41 2020] INF: [app.cpp (161)] Library versions
+PGUPV 64 bits Debug Revision: 2040
+Boost: 1_69
+SDL: Runtime: 2.0.8 Compiled: 2.0.8
+Assimp: 4.1.0
+GLEW: 2.2.0
+Par Shapes: http://github.prideout.net/shapes @ August 2016
+GLI: 0.8.3
+FreeImage: 3.18.0
+ImGui: 1.70
+[Mon May 25 21:42:41 2020] INF: [app.cpp (418)] No se han encontrado joysticks en el sistema
+[Mon May 25 21:42:41 2020] INF: [bufferObject.cpp (41)] Buffer object 1 ha reservado 3320 bytes
+[Mon May 25 21:42:41 2020] INF: [bufferObject.cpp (41)] Buffer object 2 ha reservado 5412 bytes
+[Mon May 25 21:42:41 2020] INF: [bufferObject.cpp (41)] Buffer object 3 ha reservado 5412 bytes
+[Mon May 25 21:42:41 2020] INF: [bufferObject.cpp (41)] Buffer object 4 ha reservado 3608 bytes
+[Mon May 25 21:42:41 2020] INF: [bufferObject.cpp (41)] Buffer object 5 ha reservado 288 bytes
+[Mon May 25 21:42:41 2020] INF: [bufferObject.cpp (41)] Buffer object 6 ha reservado 288 bytes
+[Mon May 25 21:42:41 2020] INF: [bufferObject.cpp (41)] Buffer object 7 ha reservado 192 bytes
+[Mon May 25 21:42:41 2020] INF: [bufferObject.cpp (41)] Buffer object 8 ha reservado 4800 bytes
+[Mon May 25 21:42:41 2020] INF: [bufferObject.cpp (41)] Buffer object 9 ha reservado 4800 bytes
+[Mon May 25 21:42:41 2020] INF: [bufferObject.cpp (41)] Buffer object 10 ha reservado 3200 bytes
+[Mon May 25 21:42:41 2020] INF: [bufferObject.cpp (41)] Buffer object 11 ha reservado 3116 bytes
+[Mon May 25 21:42:41 2020] INF: [fbo.cpp (21)] Framebuffer object 1 creado
+[Mon May 25 21:42:41 2020] INF: [fbo.cpp (21)] Framebuffer object 2 creado
+[Mon May 25 21:42:41 2020] INF: [bufferObject.cpp (41)] Buffer object 12 ha reservado 260 bytes
+[Mon May 25 21:42:41 2020] INF: [bufferObject.cpp (41)] Buffer object 13 ha reservado 432 bytes
+[Mon May 25 21:42:41 2020] INF: [bufferObject.cpp (41)] Buffer object 14 ha reservado 432 bytes
+[Mon May 25 21:42:41 2020] INF: [bufferObject.cpp (41)] Buffer object 15 ha reservado 288 bytes
+[Mon May 25 21:42:41 2020] INF: [bufferObject.cpp (41)] Buffer object 16 ha reservado 260 bytes
+[Mon May 25 21:42:41 2020] INF: [bufferObject.cpp (41)] Buffer object 17 ha reservado 432 bytes
+[Mon May 25 21:42:41 2020] INF: [bufferObject.cpp (41)] Buffer object 18 ha reservado 432 bytes
+[Mon May 25 21:42:41 2020] INF: [bufferObject.cpp (41)] Buffer object 19 ha reservado 288 bytes
+[Mon May 25 21:42:41 2020] INF: [bufferObject.cpp (41)] Buffer object 20 ha reservado 48 bytes
+[Mon May 25 21:42:41 2020] INF: [bufferObject.cpp (41)] Buffer object 21 ha reservado 32 bytes
+[Mon May 25 21:42:41 2020] INF: [bufferObject.cpp (41)] Buffer object 22 ha reservado 48 bytes
+[Mon May 25 21:42:41 2020] INF: [bufferObject.cpp (41)] Buffer object 23 ha reservado 32 bytes
+[Mon May 25 21:42:41 2020] INF: [bindableTexture.cpp (42)] Textura de tipo GL_TEXTURE_2D creada con id 1
+[Mon May 25 21:42:41 2020] INF: [bindableTexture.cpp (42)] Textura de tipo GL_TEXTURE_2D creada con id 2
+[Mon May 25 21:42:41 2020] INF: [app.cpp (665)] Unidad de textura reservada para PGUPV: 191
+[Mon May 25 21:42:41 2020] INF: [bufferObject.cpp (41)] Buffer object 24 ha reservado 80 bytes
+[Mon May 25 21:42:41 2020] INF: [uboMaterial.cpp (54)] UBO Material creado
+[Mon May 25 21:42:41 2020] INF: [bufferObject.cpp (41)] Buffer object 25 ha reservado 80 bytes
+[Mon May 25 21:42:41 2020] INF: [uboMaterial.cpp (54)] UBO Material creado
+[Mon May 25 21:42:41 2020] INF: [bufferObject.cpp (41)] Buffer object 26 ha reservado 80 bytes
+[Mon May 25 21:42:41 2020] INF: [uboMaterial.cpp (54)] UBO Material creado
+[Mon May 25 21:42:41 2020] INF: [bufferObject.cpp (41)] Buffer object 27 ha reservado 80 bytes
+[Mon May 25 21:42:41 2020] INF: [uboMaterial.cpp (54)] UBO Material creado
+[Mon May 25 21:42:42 2020] INF: [assimpWrapper.cpp (93)] El modelo ../recursos/modelos/teapot.3ds no tiene animaciones
+[Mon May 25 21:42:42 2020] INF: [bufferObject.cpp (41)] Buffer object 28 ha reservado 80 bytes
+[Mon May 25 21:42:42 2020] INF: [uboMaterial.cpp (54)] UBO Material creado
+[Mon May 25 21:42:42 2020] INF: [assimpWrapper.cpp (414)] Material: %%%DEFAULT
+Amb: (0, 0, 0) Dif: (0.3, 0.3, 0.3) Esp: (0, 0, 0) Emi: (0, 0, 0) 
+Shading model *ignored*: Simple Gouraud shading
+Textures:
+ TextureCount: 00000000000000000000000000000000
+[Mon May 25 21:42:42 2020] INF: [assimpWrapper.cpp (193)] Mesh #0 (0). Tris: 3080. Vtx: 1597 with normals WITHOUT tangents
+[Mon May 25 21:42:42 2020] INF: [bufferObject.cpp (41)] Buffer object 29 ha reservado 36960 bytes
+[Mon May 25 21:42:42 2020] INF: [bufferObject.cpp (41)] Buffer object 30 ha reservado 19164 bytes
+[Mon May 25 21:42:42 2020] INF: [bufferObject.cpp (41)] Buffer object 31 ha reservado 19164 bytes
+[Mon May 25 21:42:42 2020] INF: [fileLoader.cpp (293)] Grafo de escena:
+Transform (<3DSDummyRoot>) BB: [-1.99513 -> 2.21556, 1.0091e-09 -> 2.06155, -1.34067 -> 1.27718] 1 hijos 
+Mat: [
+1 0 0 0
+0 0 1 0
+0 -1 0 0
+0 0 0 1]
+  Transform (3DSMesh_0) BB: [-1.99513 -> 2.21556, -1.27718 -> 1.34067, 1.0091e-09 -> 2.06155] 1 hijos 
+  Mat: [
+  1 0 0 0
+  0 1 0 0
+  0 0 1 0
+  0 0 0 1]
+    Geode (3DSMesh_0) BB: [-1.99513 -> 2.21556, -1.27718 -> 1.34067, 1.0091e-09 -> 2.06155] 1 mallas { [0] 1597 vert 1 draws}
+
+[Mon May 25 21:42:42 2020] INF: [bufferObject.cpp (41)] Buffer object 32 ha reservado 368 bytes
+[Mon May 25 21:42:42 2020] INF: [glMatrices.cpp (160)] UBO GLMatrices creado
+[Mon May 25 21:42:42 2020] INF: [bufferObject.cpp (41)] Buffer object 33 ha reservado 576 bytes
+[Mon May 25 21:42:42 2020] INF: [uboLightSources.cpp (86)] UBO LightSources creado
+[Mon May 25 21:42:42 2020] INF: [shader.cpp (169)] Compilando ../p10/p10.vert
+[Mon May 25 21:42:42 2020] INF: [shader.cpp (169)] Compilando ../p10/p10.frag
+[Mon May 25 21:42:42 2020] ERR: [program.cpp (242)] ¡Cuidado! No se encuentra la variable uniform shadowMatrix2. Asegúrate de que el programa donde se encuentra el uniform está enlazado y la variable no ha sido eliminada por el compilador
+[Mon May 25 21:42:42 2020] ERR: [program.cpp (242)] ¡Cuidado! No se encuentra la variable uniform depthTexture2. Asegúrate de que el programa donde se encuentra el uniform está enlazado y la variable no ha sido eliminada por el compilador
+[Mon May 25 21:42:42 2020] INF: [bufferObject.cpp (41)] Buffer object 34 ha reservado 368 bytes
+[Mon May 25 21:42:42 2020] INF: [glMatrices.cpp (160)] UBO GLMatrices creado
+[Mon May 25 21:42:42 2020] INF: [shader.cpp (169)] Compilando ../p10/shadowMap.vert
+[Mon May 25 21:42:42 2020] INF: [shader.cpp (169)] Compilando ../p10/shadowMap.frag
+[Mon May 25 21:42:42 2020] INF: [shader.cpp (169)] Compilando ../p10/zbuffershow.vert
+[Mon May 25 21:42:42 2020] INF: [shader.cpp (169)] Compilando ../p10/zbuffershow.frag
+[Mon May 25 21:42:42 2020] INF: [stockPrograms.h (36)] StockProgram creado
+[Mon May 25 21:42:42 2020] INF: [shader.cpp (169)] Compilando 
+[Mon May 25 21:42:42 2020] INF: [shader.cpp (169)] Compilando 
+[Mon May 25 21:42:57 2020] INF: [app.cpp (599)] Aplicación terminada normalmente
+[Mon May 25 21:42:57 2020] INF: [bufferObject.cpp (19)] Buffer object 22 (Vertices) destruído
+[Mon May 25 21:42:57 2020] INF: [bufferObject.cpp (19)] Buffer object 23 (Coord. de textura (0)) destruído
+[Mon May 25 21:42:57 2020] INF: [bufferObject.cpp (19)] Buffer object 20 (Vertices) destruído
+[Mon May 25 21:42:57 2020] INF: [bufferObject.cpp (19)] Buffer object 21 (Coord. de textura (0)) destruído
+[Mon May 25 21:42:57 2020] INF: [bufferObject.cpp (19)] Buffer object 17 (Vertices) destruído
+[Mon May 25 21:42:57 2020] INF: [bufferObject.cpp (19)] Buffer object 18 (Normales) destruído
+[Mon May 25 21:42:57 2020] INF: [bufferObject.cpp (19)] Buffer object 16 (Indices) destruído
+[Mon May 25 21:42:57 2020] INF: [bufferObject.cpp (19)] Buffer object 19 (Coord. de textura (0)) destruído
+[Mon May 25 21:42:57 2020] INF: [bufferObject.cpp (19)] Buffer object 13 (Vertices) destruído
+[Mon May 25 21:42:57 2020] INF: [bufferObject.cpp (19)] Buffer object 14 (Normales) destruído
+[Mon May 25 21:42:57 2020] INF: [bufferObject.cpp (19)] Buffer object 12 (Indices) destruído
+[Mon May 25 21:42:57 2020] INF: [bufferObject.cpp (19)] Buffer object 15 (Coord. de textura (0)) destruído
+[Mon May 25 21:42:57 2020] INF: [fbo.cpp (44)] Framebuffer object 2 destruído
+[Mon May 25 21:42:57 2020] INF: [bindableTexture.cpp (48)] Textura con id 2 destruída
+[Mon May 25 21:42:57 2020] INF: [fbo.cpp (44)] Framebuffer object 1 destruído
+[Mon May 25 21:42:57 2020] INF: [bindableTexture.cpp (48)] Textura con id 1 destruída
+[Mon May 25 21:42:57 2020] INF: [bufferObject.cpp (19)] Buffer object 27 (Material) destruído
+[Mon May 25 21:42:57 2020] INF: [bufferObject.cpp (19)] Buffer object 8 (Vertices) destruído
+[Mon May 25 21:42:57 2020] INF: [bufferObject.cpp (19)] Buffer object 9 (Normales) destruído
+[Mon May 25 21:42:57 2020] INF: [bufferObject.cpp (19)] Buffer object 11 (Indices) destruído
+[Mon May 25 21:42:57 2020] INF: [bufferObject.cpp (19)] Buffer object 10 (Coord. de textura (0)) destruído
+[Mon May 25 21:42:57 2020] INF: [bufferObject.cpp (19)] Buffer object 26 (Material) destruído
+[Mon May 25 21:42:57 2020] INF: [bufferObject.cpp (19)] Buffer object 6 (Vertices) destruído
+[Mon May 25 21:42:57 2020] INF: [bufferObject.cpp (19)] Buffer object 5 (Normales) destruído
+[Mon May 25 21:42:57 2020] INF: [bufferObject.cpp (19)] Buffer object 7 (Coord. de textura (0)) destruído
+[Mon May 25 21:42:57 2020] INF: [bufferObject.cpp (19)] Buffer object 24 (Material) destruído
+[Mon May 25 21:42:57 2020] INF: [bufferObject.cpp (19)] Buffer object 2 (Vertices) destruído
+[Mon May 25 21:42:57 2020] INF: [bufferObject.cpp (19)] Buffer object 3 (Normales) destruído
+[Mon May 25 21:42:57 2020] INF: [bufferObject.cpp (19)] Buffer object 1 (Indices) destruído
+[Mon May 25 21:42:57 2020] INF: [bufferObject.cpp (19)] Buffer object 4 (Coord. de textura (0)) destruído
+[Mon May 25 21:42:57 2020] INF: [bufferObject.cpp (19)] Buffer object 28 (Material) destruído
+[Mon May 25 21:42:57 2020] INF: [bufferObject.cpp (19)] Buffer object 25 (Material) destruído
+[Mon May 25 21:42:57 2020] INF: [bufferObject.cpp (19)] Buffer object 30 (Vertices) destruído
+[Mon May 25 21:42:57 2020] INF: [bufferObject.cpp (19)] Buffer object 31 (Normales) destruído
+[Mon May 25 21:42:57 2020] INF: [bufferObject.cpp (19)] Buffer object 29 (Indices) destruído
+[Mon May 25 21:42:57 2020] INF: [bufferObject.cpp (19)] Buffer object 33 (Lights) destruído
+[Mon May 25 21:42:57 2020] INF: [bufferObject.cpp (19)] Buffer object 34 (GLMatrices) destruído
+[Mon May 25 21:42:57 2020] INF: [bufferObject.cpp (19)] Buffer object 32 (GLMatrices) destruído
+[Mon May 25 21:42:57 2020] INF: [app.cpp (93)] App destroyed
+[Mon May 25 21:42:57 2020] INF: [log.cpp (46)] Closing Log
